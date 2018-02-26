@@ -1,0 +1,221 @@
+body.pagina_home div#conteudo_pagina_home a { color: #b82932; font-weight: bold; text-decoration: none; }
+.clear{
+	clear:both;
+}
+
+/* HOME
+--------------------------------------------- */
+div#pagina_titulo { background: none; position: absolute; right: 0; z-index:-1; top: -30px; }
+div#pagina_titulo {*top:-140px;}
+div#pagina_titulo span#predios {background: url(images/home/topo_happy.png) no-repeat; width: 545px; height: 208px; display: block;  position:relative; z-index:-1; top:10px;}
+div.ie7 div#pagina_titulo span#predios{top:130px;}
+#conteudo { margin: 0 0 30px !important; width: 920px; }
+
+/* RODAPE
+--------------------------------------------- */
+div#rodape { margin-top: 0 !important; clear:both; }
+div#newsletter { width: 380px; height: 67px; padding: 80px 0 0 20px; background: url('images/home/rodape_bg.png') no-repeat right 30px; position: absolute; right: 0; top: 2px; }
+
+
+
+/* BLOCO: bloco_campanhas
+--------------------------------------------- */
+div#bloco_campanhas { background-color:#fff; border:6px solid #959899; width: 338px; height: 417px; position: absolute; left: 0; top: -202px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
+div#bloco_campanhas div { position: absolute; left: 2px; top: 2px; overflow:hidden; width:334px; }
+div#bloco_campanhas div ul{
+	margin:0;
+	width:10000px;
+}
+div#bloco_campanhas div ul li{
+	display:none;
+	list-style:none;
+	margin-right:30px;
+	float:left;
+}
+div#bloco_campanhas div ul li.active{
+	display:block;
+}
+div#bloco_campanhas .wp-bannerize-support{
+	display:none !important;
+}
+
+
+/* BLOCO: bloco_motivos
+--------------------------------------------- */
+div#bloco_motivos { background-color:#fff; border:6px solid #959899; overflow:hidden; width:339px; height:90px; position:absolute; left:0; top:246px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+/*div#bloco_motivos a { width: 367px; height: 140px; display: block; text-indent: -9999em; overflow: hidden; }*/
+
+
+/* BLOCO: bloco_home
+--------------------------------------------- */
+div#bloco_home { background-color:#fff; border:6px solid #959899; width: 314px; height: 294px; padding: 20px 10px 0 15px; position: absolute; left: 0; top: 366px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+div#bloco_home h2 { display: block; text-indent: -9999em; overflow: hidden; margin: 0 0 10px; }
+div#bloco_home h2#titulo_asasul { background: url('images/home/titulo_asasul.png') no-repeat 0 0; width: 139px; height: 25px; }
+div#bloco_home h2#titulo_tagnorte { background: url('images/home/titulo_tagnorte.png') no-repeat 0 0; width: 242px; height: 31px; }
+div#bloco_home ul { list-style-type: none; display: block; margin: 0 0 30px; width: 346px; height: 80px; position: relative; left: -3px; }
+div#bloco_home ul li { width: 100px; height: 60px; padding-top: 20px; position: absolute; top: 0px; background: url('images/unidades/pin.gif') no-repeat center top; overflow: visible; }
+div#bloco_home ul li img { border: 3px solid #fff; }
+ul#imagens_asasul .primeira-img { left: -2px; top: -1px; }
+ul#imagens_asasul .segunda-img { left: 109px; }
+ul#imagens_asasul .terceira-img { left: 219px; top: 1px; }
+ul#imagens_tagua .primeira-img { left: -3px; top: 2px; }
+ul#imagens_tagua .segunda-img { left: 108px; top: -2px; }
+ul#imagens_tagua .terceira-img { left: 217px; }
+
+
+
+/* BLOCO: bloco_noticias
+--------------------------------------------- */
+div#bloco_noticias { margin:194px 0 16px 367px; border:6px solid #959899; padding:20px; background-color:#fff; width:300px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+div.ie7 div#bloco_noticias{ margin-top:0; }
+div#bloco_noticias p.date { float:left; color: #777777;
+	font-size: 11px;
+    font-style: italic;
+    line-height: 1em !important;
+    margin: 0 5px 5px !important; }
+div#bloco_noticias h2 { background: url('images/home/titulo_noticias.png') no-repeat 0 0; width: 83px; height: 22px; text-indent: -9999em; overflow: hidden; display: block; }
+a#assine_rss { width: 61px; height: 59px; display: block; background: url('images/home/icone_rss.png') no-repeat 0 0; position: absolute; left: 646px; top: -25px; text-indent: -9999em; overflow: hidden; }
+div#bloco_noticias ul#lista_materias { margin: 0 !important; }
+div#bloco_noticias div.bottom{
+	
+}
+div#bloco_noticias a { color: #8a8a8d; font-weight: bold; text-decoration: none; }
+div#bloco_noticias ul#lista_materias li.post { width: 314px; padding: .5em 0 !important; list-style-type: none; position: relative; }
+div#bloco_noticias ul#lista_materias ul.post-categories{
+	float:left;
+	margin-top:-3px;
+	margin-left:0;
+}
+div#bloco_noticias ul#lista_materias ul.post-categories li{
+	list-style:none;
+	display:inline;
+}
+ div#bloco_noticias ul#lista_materias ul.post-categories li a{
+	 font-weight:normal;
+	 font-style:italic;
+}
+div#bloco_noticias ul#lista_materias li.post h3 { font-size: 18px; line-height: 1em !important; margin: 0 !important; }
+div#bloco_noticias p.metadados { font-size: 11px; line-height: 1em !important; font-style: italic; margin: 0 0 5px !important; color: #777; }
+div#bloco_noticias p { text-align: left; }
+div#bloco_noticias ul#lista_materias li.post p a { font-weight: normal !important; display: inline; }
+div#bloco_noticias p.link_comentarios { display: none; }
+
+
+
+/* BLOCO: bloco_aprender
+--------------------------------------------- */
+div#bloco_aprender { background-color:#fff;	border:6px solid #959899; width: 160px; height: 316px; position: absolute; right: 0px; top: 0px; z-index:-1; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+div#bloco_aprender h2 { width: 142px; height: 50px; background: url('images/home/titulo_aprender.png') no-repeat 0 0; text-indent: -9999em; overflow: hidden; display: block; margin: 15px 0 15px 10px; }
+div#bloco_aprender ul { margin-left: 20px; height:240px; }
+div#bloco_aprender li { list-style-type: none; display: block;}
+div#bloco_aprender a { text-indent: -9999em; overflow: hidden; display: block; width:218px; position:absolute; right:-30px; height:41px; }
+
+a#aprender_ing { background: url('images/home/bt_ingles.png') no-repeat; top:112px }
+a#aprender_es { background: url('images/home/bt_espanhol.png') no-repeat; top:162px; }
+a#aprender_pt { background: url('images/home/bt_portugues.png') no-repeat; top:212px }
+a#aprender_info { background: url('images/home/bt_informatica.png') no-repeat; top:262px}
+
+
+
+/* BLOCO: bloco_duvidas
+--------------------------------------------- */
+div#bloco_duvidas { background-color:#fff; border:6px solid #959899; width:160px; height: 190px; position: absolute; right:0px; top: 342px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
+div#bloco_duvidas h2 { background: url('images/home/titulo_duvida.png') no-repeat 0 0; width: 145px; height: 23px; text-indent: -9999em; overflow: hidden; margin: 15px 0 0 10px !important; }
+div#bloco_duvidas p { margin: 10px 10px 10px 15px; width:130px; text-align: left !important; }
+div#bloco_duvidas a { background: url('images/home/bt_helpout.png') no-repeat 0 0; width: 218px; height:41px; display: block; text-indent: -9999em; overflow: hidden; text-decoration: none; margin-top:10px; position:relative; left:-28px; }
+
+#conteudo_pagina_home{
+	padding-bottom:200px;
+	position:relative;
+	z-index:-1;
+}
+div.ie7 #conteudo_pagina_home{
+	margin-top:230px;	
+}
+
+/* BLOCO: bloco_facebook
+--------------------------------------------- */
+
+#bloco_facebook{
+	background-color:#fff; 
+    height: 290px;
+    margin-left: 367px;
+    width: 340px;
+	border:6px solid #959899;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+/* BLOCO: bloco_twitter
+--------------------------------------------- */
+
+#bloco_twitter{
+	background-color:#fff;
+	border:6px solid #959899;
+	max-height:725px;
+	padding:15px 5px;
+    position: absolute;
+    right: 0px;
+    top:560px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+    width:150px;
+}
+#bloco_twitter h2{
+	background:url(images/home/tit_twitter.png) no-repeat;
+	width:96px;
+	height:24px;
+	margin-left:25px !important;
+	overflow:hidden; 
+	text-indent:-999em;	
+}
+#bloco_twitter h3{
+	font-size:12px !important;
+}
+#bloco_twitter div.twitter-avatar{
+	text-align:center;
+}
+#bloco_twitter ul li{
+	border-bottom:1px solid;
+	list-style:none;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	width:135px;
+}
+#bloco_dictionary{
+	background-color:#fff;
+	height:103px;
+    position: absolute;
+    right: 0px;
+    top:1282px;
+    width:160px;
+	border:6px solid #959899;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+#bloco_dictionary span.powered{
+	display:none;
+}
+
+/* BLOCO: bloco_video
+--------------------------------------------- */
+
+#bloco_youtube{
+	height:513px;
+	border:6px solid #959899; 
+	left:-21px;
+	position:relative;
+	top:28px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	width:339px; 
+}
+
+
+/* SELOS FRANQUEADO
+--------------------------------------------- */
+img#selos_home { position: absolute; left: 25px; top: 340px; }

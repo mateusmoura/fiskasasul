@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*
+BASE CSS RESET
+Created by Aquarela Criativa on 2009-Apr-16 2:00 PM.
+Copyright (c) 2008 Aquarela Criativa. All rights reserved.
+*/
+/* @group BLOCKS */
+.widthAuto { width:auto !important; }
+.heightAuto { height:auto !important; }
+.noMargin { margin:0 !important; }
+.noBorder { border:none !important; }
+.hide, .hidden, .none { display:none !important; }
+.displayBlock, .block, .show { display:block !important; }
+.clearBoth, .clear { clear:both !important; }
+.displayInline { display: inline !important; }
+/* @end */
+/* @group FLOAT */
+.floatNone { float:none !important; }
+.floatLeft { float:left !important; }
+.floatRight { float:right !important; }
+/* @end */
+/* @group TYPOGRAPHY */
+.indent { text-indent:-9999em !important; overflow:hidden !important; display:block !important; }
+.noIndent { text-indent: 0 !important; }
+.uppercase { text-transform:uppercase; }
+.alignRight { text-align:right !important; }
+.alignCenter { text-align:center !important; }
+/* @end */
+/* @group CURSOR */
+label, .label, .cursor, .cursorPointer, .pointer { cursor: pointer !important; }
+.cursorNormal, .cursorDefault { cursor: default !important; }
+.cursorWait { cursor: wait !important; }
+.cursorCross { cursor: crosshair !important; }
+/* @end */
+/* @group INLINE FIXES AND DEBUG */
+.bgNoRepeat { background:no-repeat; }
+.noBg, .noBgImg, li.last { background-image:none !important; }
+.debug { border:1px solid red !important; }
+.grid { background: url(../img/GRID.png) repeat 0 0 !important; }
+.grid * { color: #000 !important; }
+/* @end */
