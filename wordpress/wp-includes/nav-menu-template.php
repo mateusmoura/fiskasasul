@@ -172,7 +172,7 @@ function wp_nav_menu( $args = array() ) {
 	if ( $menu_items_with_children ) {
 		foreach ( $sorted_menu_items as &$menu_item ) {
 			if ( isset( $menu_items_with_children[ $menu_item->ID ] ) )
-				$menu_item->classes[] = 'menu-item-has-children';
+				$menu_item->classes[] = 'menu-item-has-children dropdown';
 		}
 	}
 
@@ -341,7 +341,7 @@ function _wp_menu_item_classes_by_context( &$menu_items ) {
 		$menu_items[$key]->current = false;
 
 		$classes = (array) $menu_item->classes;
-		$classes[] = 'menu-item';
+		$classes[] = 'nav-item';
 		$classes[] = 'menu-item-type-' . $menu_item->type;
 		$classes[] = 'menu-item-object-' . $menu_item->object;
 

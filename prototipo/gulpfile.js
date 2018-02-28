@@ -10,6 +10,7 @@ const util = require('gulp-util');
 const config = {
   srcDir: 'src/',
   assetDir: 'assets/',
+  wordpressDir: '../wordpress/wp-content/themes/fisk_brasilia_2018/',
   production: !!util.env.production,
 };
 
@@ -37,7 +38,7 @@ gulp.task('sass', () =>
       outputStyle: 'expanded',
     }).on('error', sass.logError))
     .pipe(config.production ? util.noop() : sourcemaps.write('./maps'))
-    .pipe(gulp.dest(config.production ? `${config.assetDir}/css` : `${config.srcDir}/css`))
+    .pipe(gulp.dest(config.production ? `${config.assetDir}/css` : `${config.wordpressDir}/css`))
     .pipe(config.production ? util.noop() : browserSync.stream())));
 
 gulp.task('images', () => (

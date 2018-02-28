@@ -10,13 +10,13 @@
  * @since Fisk Brasilia 2012 1.0
  */
 ?>
-	</div><!-- #main -->
+  </div><!-- #main -->
 </div><!-- #wrapper -->
 
-	<div id="rodape" role="contentinfo">
-    	<div class="construtor">
-        	<div id="newsletter">
-            	<?php if (class_exists('ajaxNewsletter')): ?>
+  <div id="rodape" role="contentinfo">
+      <div class="construtor">
+          <div id="newsletter">
+              <?php if (class_exists('ajaxNewsletter')): ?>
                 <label for="usuario_email_newsletter">Crie seu cadastro e fique por dentro de novidades, promoções, oportunidades e muito mais:</label>
                 <!-- place your HTML code here -->
                 <?php ajaxNewsletter::newsletterForm(); ?>
@@ -24,7 +24,7 @@
                 <?php endif; ?>
             </div>
             <div id="auxiliar_rodape">
-            	<?php wp_nav_menu( array('menu' => 'queroserfisk' )); ?>
+              <?php wp_nav_menu( array('menu' => 'queroserfisk' )); ?>
                 <?php wp_nav_menu( array('menu' => 'soufisk' )); ?>
                 <?php wp_nav_menu( array('menu' => 'servicos' )); ?>
                 <!--<ul>
@@ -52,7 +52,7 @@
             </div> -->
             
             <div class="developer">
-            	<p>Desenvolvido por: <a href="http://webfacetecnologia.com.br" target="_blank" title="Webface Tecnologia">Webface Tecnologia - Sua empresa na internet</a></p>
+              <p>Desenvolvido por: <a href="http://webfacetecnologia.com.br" target="_blank" title="Webface Tecnologia">Webface Tecnologia - Sua empresa na internet</a></p>
             </div>
             <div id="colophon">
     
@@ -75,17 +75,43 @@
                 </div><!-- #site-generator -->
     
             </div><!-- #colophon -->
-       	</div><!-- #footer -->
-	</div>
+         </div><!-- #footer -->
+  </div>
 
 <?php
-	/* Always have wp_footer() just before the closing </body>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to reference JavaScript files.
-	 */
+  /* Always have wp_footer() just before the closing </body>
+   * tag of your theme, or you will break many plugins, which
+   * generally use this hook to reference JavaScript files.
+   */
 
-	wp_footer();
+  wp_footer();
 ?>
+
+<!-- <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/functions.js?<?php echo $noCacheDt[0]; ?>"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsQdSlW4vj5RvXp2_pLnv1s1ErfxjM5_o"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/jquery/jquery.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/jquery/jquery-migrate-3.0.0.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/bootstrap/js/tether.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/bootstrap/js/popper.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/slick/slick.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/circle-progress/jquery.appear.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/isotope/isotope.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/fancybox/jquery.fancybox.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/counterUp/waypoint.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/counterUp/jquery.counterup.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/smoothscroll/SmoothScroll.js"></script>
+
+<script src="<?php bloginfo( 'template_url' ); ?>/plugins/syotimer/jquery.syotimer.min.js"></script>
+
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+
+<script src="<?php bloginfo( 'template_url' ); ?>/js/custom.js"></script>
+
 <!--[if IE ]></div><![endif]-->
 </body>
 </html>

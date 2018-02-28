@@ -5612,6 +5612,20 @@ header {
   }
 }
 
+.main-nav .dropdown-menu .nav-item {
+  position: relative;
+}
+
+.main-nav .dropdown-menu .nav-item a.nav-link {
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.main-nav .dropdown-menu .nav-item a.nav-link:hover, .main-nav .dropdown-menu .nav-item a.nav-link:focus, .main-nav .dropdown-menu .nav-item a.nav-link:active {
+  color: #ffffff;
+}
+
 /*============= HEADER STYLE ============*/
 @media (min-width: 480px) {
   .boxed header {
@@ -7558,7 +7572,6 @@ p.devider.devider_primary {
 
 .box-content {
   background-color: #ffffff;
-  border-radius: 10px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.17);
   position: relative;
   overflow: hidden;
@@ -7567,11 +7580,10 @@ p.devider.devider_primary {
 
 .box-content .bg {
   position: relative;
-  z-index: 101;
+  z-index: 1;
 }
 
 .box-content .bg img {
-  border-radius: 10px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -7583,13 +7595,23 @@ p.devider.devider_primary {
   height: auto;
 }
 
+.box-content .padding {
+  padding: 50px;
+}
+
 .box-content .title, .box-content .content, .box-content .link {
   position: relative;
-  z-index: 102;
+  z-index: 2;
 }
 
 .box-content .title {
   margin-bottom: 20px;
+}
+
+.box-content .title h2, .box-content .title h3 {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: bold;
 }
 
 .box-content .content {
@@ -8650,6 +8672,15 @@ body.loaded {
   .contact form .btn {
     width: auto;
   }
+}
+
+.home-blocos {
+  margin-top: 20px;
+}
+
+.home-video {
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 footer {

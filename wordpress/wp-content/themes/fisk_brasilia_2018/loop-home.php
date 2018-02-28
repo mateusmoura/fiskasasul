@@ -10,8 +10,8 @@
  * This can be overridden in child themes with loop-home.php.
  *
  * @package WordPress
- * @subpackage fisk_brasilia_2012
- * @since Twenty Ten 1.2
+ * @subpackage fisk_brasilia_2018
+ * @since Fisk Brasilia 2018 2.0
  */
 ?>
 
