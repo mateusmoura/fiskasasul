@@ -1,0 +1,26 @@
+/* CONTEUDO_PAGINA
+--------------------------------------------- */
+body#pagina_queroserfisk_7 div#conteudo_pagina a
+, body.pagina_queroserfisk_ingles div#conteudo_pagina a 
+, #conteudo #conteudo_pagina p.azul a{ color: #0060af; }
+body#pagina_queroserfisk_8 div#conteudo_pagina a
+, body.pagina_queroserfisk_espanhol div#conteudo_pagina a
+, #conteudo #conteudo_pagina p.laranja a { color: #f99d1c; }
+body#pagina_queroserfisk_9 div#conteudo_pagina a
+, body.pagina_queroserfisk_portugues div#conteudo_pagina a
+, #conteudo #conteudo_pagina p.verde a { color: #00ae4d; }
+body#pagina_queroserfisk_10 div#conteudo_pagina a
+, body.pagina_queroserfisk_informatica div#conteudo_pagina a
+, #conteudo #conteudo_pagina p.turquesa a { color: #00a29d; }
+
+/* SUBMENU AUXILIAR
+--------------------------------------------- */
+/*body#pagina_queroserfisk_7 div#submenu
+, #conteudo div#submenu.azul { background: url('images/branco/submenu_vermelho.png') no-repeat 0 0 !important; }
+body#pagina_queroserfisk_8 div#submenu
+, #conteudo div#submenu.laranja { background: url('images/branco/submenu_vermelho.png') no-repeat 0 0 !important; }
+body#pagina_queroserfisk_9 div#submenu
+, #conteudo div#submenu.verde { background: url('images/branco/submenu_vermelho.png') no-repeat 0 0 !important; }
+body#pagina_queroserfisk_10 div#submenu
+, #conteudo div#submenu.turquesa { background: url('images/branco/submenu_vermelho.png') no-repeat 0 0 !important; }*/
+
