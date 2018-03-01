@@ -10,8 +10,8 @@
  * @since Fisk Brasilia 2012 1.0
  */
 ?>
-  </div><!-- #main -->
-</div><!-- #wrapper -->
+
+</div><!-- .main-wrapper -->
 
   <div id="rodape" role="contentinfo">
       <div class="construtor">
