@@ -12,6 +12,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php
   /*
    * Print the <title> tag based on what is being viewed.
@@ -51,7 +52,7 @@
 
 <!-- PLUGINS CSS STYLE -->
 <link href="<?php bloginfo( 'template_url' ); ?>/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="<?php bloginfo( 'template_url' ); ?>/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- <link href="<?php bloginfo( 'template_url' ); ?>/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 <link href="<?php bloginfo( 'template_url' ); ?>/plugins/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"> -->
 <link href="<?php bloginfo( 'template_url' ); ?>/plugins/selectbox/select_option1.css" rel="stylesheet">
@@ -71,6 +72,8 @@
 <!-- CUSTOM CSS -->
 <link href="<?php bloginfo( 'template_url' ); ?>/css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/color-option4.css" id="option_color">
+
+<script defer src="<?php bloginfo( 'template_url' ); ?>/plugins/font-awesome/svg-with-js/js/fontawesome-all.js"></script>
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php

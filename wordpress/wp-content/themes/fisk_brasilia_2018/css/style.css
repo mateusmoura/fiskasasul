@@ -4995,7 +4995,6 @@ p.devider.devider_primary {
   .media.blog-media .media-body {
     padding: 15px 20px 10px;
     border-top: 1px solid #efeff3;
-    border-left: none;
     display: table-cell;
     vertical-align: top;
   }
@@ -5717,6 +5716,7 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
   margin-left: 15px;
   padding-bottom: 10px;
   position: relative;
+  z-index: 2;
 }
 
 .main-nav .navbar-brand img {
@@ -9672,7 +9672,6 @@ footer {
 .blog-post-contents .media.blog-media .media-body {
   padding: 30px;
   border: 1px solid #eeeef2;
-  border-top: none;
 }
 
 .blog-post-contents .media.blog-media .media-body p {

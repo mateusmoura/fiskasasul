@@ -96,9 +96,7 @@
                 ?>
 
                 <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'fiskbrasilia2012' ), 'after' => '</div>' ) ); ?>
-                <button class="btn btn-primary-outlined">
-                  <?php edit_post_link( __( 'Edit', 'fiskbrasilia2012' ), '<span class="edit-link">', '</span>' ); ?>
-                </button>
+                <?php edit_post_link( __( 'Edit', 'fiskbrasilia2012' ), '<button class="btn btn-primary-outlined">', '</button>' ); ?>
 
                 <!-- <div id="navegador">
                     <p><a href="<?php echo home_url( '/' ); ?>">Página Inicial</a> : <a href="<?php echo get_page_link() ?>"><?php the_title(); ?></a> : <?php the_title(); ?></p>
