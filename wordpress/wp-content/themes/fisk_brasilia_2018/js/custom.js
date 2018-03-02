@@ -5,32 +5,38 @@
 		$('body').addClass('loaded');
 	}, 3000);
 
+	console.log('====================================');
+	console.log('akii');
+	console.log('====================================');
+
 	$(window).on('load', function(){
-		$('#body').each(function(){
-			var header_area = $('.header');
-			var main_area = header_area.find('.navbar');
-			var logo = main_area.find('.site-logo');
-			var navigation = main_area.find('.navigation');
-			var original = {
-				nav_top: navigation.css('margin-top')
-			};
+		var header_area = $('.header');
+		var main_area = header_area.find('.navbar');
+		var logo = main_area.find('.site-logo');
+		var navigation = main_area.find('.navigation');
+		var original = {
+			nav_top: navigation.css('margin-top')
+		};
 
-			$(window).scroll(function(){
-				if( main_area.hasClass('navbar-sticky') && ($(this).scrollTop() <= 100 || $(this).width() <= 750)){
-					main_area.removeClass('navbar-sticky').appendTo(header_area);
-					navigation.animate({'margin-top': original.nav_top}, {duration: 100, queue: false, complete: function(){
-						header_area.css('height', 'auto');
+		$(window).scroll(function(){
+			console.log('====================================');
+			console.log(main_area.hasClass('navbar-sticky'), ($(this).scrollTop() <= 100 || $(this).width() <= 750));
+			console.log('====================================');
 
-					}});
-				}else if( !main_area.hasClass('navbar-sticky') && $(this).width() > 750 && $(this).scrollTop() > 400 ){
+			if( main_area.hasClass('navbar-sticky') && ($(this).scrollTop() <= 100 || $(this).width() <= 750)){
+				main_area.removeClass('navbar-sticky').appendTo(header_area);
+				navigation.animate({'margin-top': original.nav_top}, {duration: 100, queue: false, complete: function(){
+					header_area.css('height', 'auto');
 
-					header_area.css('height', header_area.height());
-					main_area.css({'opacity': '0'}).addClass('navbar-sticky');
-					main_area.appendTo($('body')).animate({'opacity': 1});
+				}});
+			}else if( !main_area.hasClass('navbar-sticky') && $(this).width() > 750 && $(this).scrollTop() > 400 ){
 
-					navigation.css({'margin-top': '0px'});
-				}
-			});
+				header_area.css('height', header_area.height());
+				main_area.css({'opacity': '0'}).addClass('navbar-sticky');
+				main_area.appendTo($('body')).animate({'opacity': 1});
+
+				navigation.css({'margin-top': '0px'});
+			}
 		});
 
 		$(window).trigger('resize');

@@ -10,73 +10,107 @@
  * @since Fisk Brasilia 2012 1.0
  */
 ?>
+  <footer class="footer footer-classic bg-dark">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <?php wp_nav_menu( array('menu' => 'queroserfisk' )); ?>
+        </div>
 
+        <div class="col-md-3">
+          <?php wp_nav_menu( array('menu' => 'soufisk' )); ?>
+        </div>
+
+        <div class="col-md-3">
+          <?php wp_nav_menu( array('menu' => 'servicos' )); ?>
+        </div>
+
+        <div class="col-md-3">
+          <div class="banners-premios">
+            <img src="<?php bloginfo( 'template_url' ); ?>/images/branco/premios-banners.png" alt="Premios" width="250">
+          </div>
+
+          <ul class="menu" id="lista_institucional">
+            <li class="nav-item "><a class="nav-link" href="<?php echo get_page_link( "229" ); ?>" title="Privacidade">Privacidade</a></li>
+            <li class="nav-item "><a class="nav-link" href="<?php echo get_page_link( "231" ); ?>" title="Termos de uso">Termos de Uso</a></li>
+          </ul>
+
+          <div id="colophon">
+            <?php
+              /* A sidebar in the footer? Yep. You can can customize
+              * your footer with four columns of widgets.
+              */
+              get_sidebar( 'footer' );
+            ?>
+
+            <div id="site-info">
+              <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                  <?php bloginfo( 'name' ); ?>
+              </a>
+            </div><!-- #site-info -->
+
+            <div id="site-generator">
+              <?php do_action( 'fiskbrasilia2012_credits' ); ?>
+              <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'fiskbrasilia2012' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'fiskbrasilia2012' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s.', 'fiskbrasilia2012' ), 'WordPress' ); ?></a>
+            </div><!-- #site-generator -->
+          </div><!-- #colophon -->
+        </div>
+
+
+        <div class="col-lg-7 col-md-8 ">
+          <div class="text-center">
+            <a class="brand" href="<?php echo home_url( '/' ); ?>">
+              <img src="<?php bloginfo( 'template_url' ); ?>/img/logo-fisk.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+            </a>
+            <!-- <p>
+              Mollit auctor eum, fames gravida deserunt senectus eius nonummy felis natus saepe accusantium arcu, ultricies eos pretium
+              amet quia habitant pede.
+            </p> -->
+            <div class="social-icons">
+              <a href="https://www.facebook.com/fiskbrasilia1" class="btn btn-social btn-social-o facebook">
+                <i class="fa fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/fiskbrasilia" class="btn btn-social btn-social-o twitter">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <!-- <a href="#" class="btn btn-social btn-social-o pinterest">
+                <i class="fa fa-pinterest-p"></i>
+              </a>
+              <a href="#" class="btn btn-social btn-social-o google-plus">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="#" class="btn btn-social btn-social-o linkedin">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="#" class="btn btn-social btn-social-o vimeo">
+                <i class="fa fa-vimeo"></i>
+              </a>
+              <a href="#" class="btn btn-social btn-social-o dribbble">
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+        <!-- BACK TO TOP BUTTON -->
+        <a href="#pageTop" class="backToTop">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+      </div>
+      <!-- COPY RIGHT -->
+      <div class="copyright">
+        <hr>
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 ">
+            <div class="copyRight_text text-center">
+              <p> © 2010 Copyright Fisk Brasília by
+              <a class="text-primary" href="https://www.linkedin.com/in/mateusmouraprofile/" target="_blank" title="Mateus Moura">Mateus Moura - Front-End Developer</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </div><!-- .main-wrapper -->
-
-  <div id="rodape" role="contentinfo">
-      <div class="construtor">
-          <div id="newsletter">
-              <?php if (class_exists('ajaxNewsletter')): ?>
-                <label for="usuario_email_newsletter">Crie seu cadastro e fique por dentro de novidades, promoções, oportunidades e muito mais:</label>
-                <!-- place your HTML code here -->
-                <?php ajaxNewsletter::newsletterForm(); ?>
-                <!-- place your HTML code here -->
-                <?php endif; ?>
-            </div>
-            <div id="auxiliar_rodape">
-              <?php wp_nav_menu( array('menu' => 'queroserfisk' )); ?>
-                <?php wp_nav_menu( array('menu' => 'soufisk' )); ?>
-                <?php wp_nav_menu( array('menu' => 'servicos' )); ?>
-                <!--<ul>
-                    <?php /*?><?php wp_list_pages('depth=0&title_li=&exclude=229,231,68,5,33,60,2,35,37,39,41,43,45,47,49,62,64,66,216&sort_column=menu_order'); ?><?php */?>
-                </ul>
-                <ul>
-                    <?php /*?><?php wp_list_pages('depth=0&title_li=&exclude=229,231,68,5,33,60,2,9,11,15,17,19,21,23,25,62,64,66,216&sort_column=menu_order'); ?><?php */?>
-                </ul>
-                <ul>
-                    <?php /*?><?php wp_list_pages('depth=0&title_li=&exclude=229,231,68,5,33,60,2,35,37,39,41,43,45,47,49,9,11,15,17,19,21,23,25,216&sort_column=menu_order'); ?><?php */?>
-                </ul>-->
-            </div>
-
-            <div class="banners-premios">
-                <img src="<?php bloginfo( 'template_url' ); ?>/images/branco/premios-banners.png" alt="Premios" width="250">
-            </div>
-            
-            <ul id="lista_institucional">
-                <li><a href="<?php echo get_page_link( "229" ); ?>" title="Privacidade">Privacidade</a></li>
-                <li><a href="<?php echo get_page_link( "231" ); ?>" title="Termos de uso">Termos de Uso</a></li>
-            </ul>
-
-            <!-- <div class="falou-fisk">
-                 <img src="<?php bloginfo( 'template_url' ); ?>/images/branco/falou-fisk.png" alt="Falou Fisk Falou Tudo" width="200">
-            </div> -->
-            
-            <div class="developer">
-              <p>Desenvolvido por: <a href="http://webfacetecnologia.com.br" target="_blank" title="Webface Tecnologia">Webface Tecnologia - Sua empresa na internet</a></p>
-            </div>
-            <div id="colophon">
-    
-                <?php
-                    /* A sidebar in the footer? Yep. You can can customize
-                     * your footer with four columns of widgets.
-                     */
-                    get_sidebar( 'footer' );
-                ?>
-    
-                <div id="site-info">
-                    <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                        <?php bloginfo( 'name' ); ?>
-                    </a>
-                </div><!-- #site-info -->
-    
-                <div id="site-generator">
-                    <?php do_action( 'fiskbrasilia2012_credits' ); ?>
-                    <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'fiskbrasilia2012' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'fiskbrasilia2012' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s.', 'fiskbrasilia2012' ), 'WordPress' ); ?></a>
-                </div><!-- #site-generator -->
-    
-            </div><!-- #colophon -->
-         </div><!-- #footer -->
-  </div>
 
 <?php
   /* Always have wp_footer() just before the closing </body>

@@ -780,6 +780,8 @@ body {
 --> BLOG
 ================================================*/
 .home-blog {
+  padding-top: 50px;
+
   .section-title {
     padding-bottom: 15px;
   }
@@ -864,4 +866,14 @@ body {
 .home-video {
   overflow: hidden;
   margin-bottom: 20px;
+}
+
+.newsletter {
+  padding-top: 50px;
+
+  .form-inline {
+    .input-group {
+      width: 70%;
+    }
+  }
 }

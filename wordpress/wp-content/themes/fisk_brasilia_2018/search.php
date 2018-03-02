@@ -10,7 +10,7 @@
 get_header(); ?>
 
 		<!--<div id="container">-->
-			<div id="conteudo" role="main">
+			<main class="main-content">
 
 <?php if ( have_posts() ) : ?>
 				<!--<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'fiskbrasilia2012' ), '<span>' . get_search_query() . '</span>' ); ?></h1>-->
@@ -30,7 +30,7 @@ get_header(); ?>
 					</div><!-- .entry-content -->
 				</div><!-- #post-0 -->
 <?php endif; ?>
-			</div><!-- #content -->
+			</main><!-- #content -->
 		<!--</div> #container -->
 
 <?php /*?><?php get_sidebar(); ?><?php */?>

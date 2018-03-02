@@ -1173,18 +1173,21 @@ function ActivateConfirm(email){
 	function subscriptionForm($email=""){
 		$action = get_bloginfo("url");
 ?>
-	<form action="javascript:StartFade('<?= $action ?>','ajaxNewsletter','newsletterLoading');"
+	<form class="" action="javascript:StartFade('<?= $action ?>','ajaxNewsletter','newsletterLoading');"
 			name="newsletterForm" id="newsletterForm" method="post">
-		<div class="rightAlign" id="newsletterFormDiv">
-			<input
-				class="newsletterTextInput"
-				onblur="if(this.value==''){this.value='Digite seu e-mail'}"
-				onfocus="if(this.value=='Digite seu e-mail'){this.value=''}"
-				type="text" name="email"
-				value="<?php if($email != "") echo 'Digite seu e-mail'; else echo 'Digite seu e-mail'; ?>" />
+		<div class="form-inline rightAlign" id="newsletterFormDiv">
+			<div class="input-group mb-2 mr-sm-2 mb-sm-0 input-icon">
+				<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+				<input
+					class="form-control newsletterTextInput"
+					onblur="if(this.value==''){this.value='Digite seu e-mail'}"
+					onfocus="if(this.value=='Digite seu e-mail'){this.value=''}"
+					type="text" name="email"
+					value="<?php if($email != "") echo 'Digite seu e-mail'; else echo 'Digite seu e-mail'; ?>" />
+			</div>
+
 			<input type="hidden" id="newsletter" name="newsletter" value="true" />
-			<input class="submit" type="submit" name="newsletterSub"
-				value="" />
+			<button type="submit" name="newsletterSub" class="btn btn-primary btn-lg">Assinar</button>
 		</div>
 	</form>
 <?php	

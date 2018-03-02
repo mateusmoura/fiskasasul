@@ -432,6 +432,10 @@ body.boxed {
   }
 }
 
+.align-center {
+  text-align: center;
+}
+
 /*============== SEARCH MODAL ==============*/
 #searchModal {
   background: rgba(255, 255, 255, 0.9);
@@ -685,6 +689,10 @@ body.boxed {
 
 .bredcrumb .pager.middle a {
   color: #0cc652;
+}
+
+.main-content {
+  margin-bottom: 50px;
 }
 
 /* ELEMENTS */
@@ -6169,8 +6177,14 @@ header {
   }
 }
 
+.menu-login {
+  position: relative;
+  margin-right: 10px;
+}
+
 .search_hook {
   position: relative;
+  width: 200px;
 }
 
 .search_hook:before {
@@ -8572,6 +8586,10 @@ body.loaded {
 /*==============================================
 --> BLOG
 ================================================*/
+.home-blog {
+  padding-top: 50px;
+}
+
 .home-blog .section-title {
   padding-bottom: 15px;
 }
@@ -8683,6 +8701,14 @@ body.loaded {
   margin-bottom: 20px;
 }
 
+.newsletter {
+  padding-top: 50px;
+}
+
+.newsletter .form-inline .input-group {
+  width: 70%;
+}
+
 footer {
   padding-top: 50px;
 }
@@ -8735,6 +8761,15 @@ footer {
 
 .footer .social-icons .btn-social-o:hover {
   color: #0cc652;
+}
+
+.footer .brand {
+  display: inline-block;
+  width: 250px;
+}
+
+.footer .brand img {
+  width: 100%;
 }
 
 .copyright {

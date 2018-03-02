@@ -457,22 +457,31 @@ header {
     }
   }
 }
+
+.menu-login {
+  position: relative;
+  margin-right: 10px;
+}
+
 .search_hook {
   position: relative;
+  width: 200px;
+
   &:before {
-      position: absolute;
-      content: '';
-      left: 0px;
-      width: 2px;
-      height: 14px;
-      background: #ccc;
-      top: 50%;
-      transform: translateY(-50%);
-      display: none;
-      @include tablet {
-        display: block;
-      }
+    position: absolute;
+    content: '';
+    left: 0px;
+    width: 2px;
+    height: 14px;
+    background: #ccc;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    @include tablet {
+      display: block;
+    }
   }
+
   form.search_form {
     margin-top: 5px;
     position: relative;

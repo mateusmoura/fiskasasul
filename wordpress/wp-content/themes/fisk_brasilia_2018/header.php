@@ -131,7 +131,7 @@
           </span>
         </button>
         <a class="navbar-brand" href="<?php echo home_url( '/' ); ?>">
-          <img src="" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+          <img src="<?php bloginfo( 'template_url' ); ?>/img/logo-fisk.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
         </a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -141,6 +141,12 @@
               'container_class' => 'navbar-nav ml-auto',
               'theme_location' => 'primary'
             )); ?>
+
+          <div class="menu-login">
+            <a href="<?php echo wp_login_url( home_url() ); ?>">
+              <button class="btn btn-primary-outlined">Login</button>
+            </a>
+          </div>
 
           <!-- header search -->
           <div class="nav-item search_hook">

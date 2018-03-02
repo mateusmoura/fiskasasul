@@ -15,7 +15,7 @@
 get_header(); ?>
 
     <!--<div id="container">-->
-      <div id="conteudo" role="main">
+      <main class="main-content">
         <?php
                   $idpage = get_the_ID();
           
@@ -37,7 +37,7 @@ get_header(); ?>
                 
         
                 
-      </div><!-- #content -->
+      </main><!-- #content -->
     <!--</div>< #container -->
 <?php /*?><?php get_sidebar(); ?><?php */?>        
 <?php get_footer(); ?>
