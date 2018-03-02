@@ -3,6 +3,16 @@
 ================================================== */
 header {
   background-color: $white-color;
+
+  .main-nav .dropdown-menu .nav-item {
+    a.nav-link {
+      color: $title-color;
+  
+      &:hover, &:focus, &:active {
+        color: $white-color !important;
+      }
+    }
+  }
 }
 
 .dropdown-menu li > h6 {
