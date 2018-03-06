@@ -36,8 +36,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
+             <?php
+              $idP = get_the_ID();
+              $curso = "";
+              if( $idP <= 336 && $idP >= 328 || $idP == 320 )
+                $curso = "informatica";
+              else if( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 )
+                $curso = "espanhol";
+              else if( $idP < 315 && $idP > 279 )
+                $curso = "ingles"; 
+              else if( $idP == 318 )
+                $curso = "portugues";
+              else if ($idP == 1070)
+                $cursos = "frances";
+            ?>
+
             <!-- section title -->
-            <div class="row justify-content-md-center">
+            <div class="row justify-content-md-center curso-<?php echo $curso; ?>">
               <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="section-title title-ex1 text-center">
                   <h2 class="title-text"><?php the_title(); ?></h2>
@@ -46,26 +61,13 @@
               </div>
             </div>
             <!-- section title ends -->
-            
-            <?php
-              $idP = get_the_ID();
-              $classC = "";
-              if( $idP <= 336 && $idP >= 328 || $idP == 320 )
-                $classC = "turquesa";
-              else if( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 )
-                $classC = "laranja";
-              else if( $idP < 315 && $idP > 279 )
-                $classC = "azul"; 
-              else if( $idP == 318 )
-                $classC = "verde";
-            ?>
 
             <?php if( $idP == 17 )
             { ?>
               <div class="row">
                 <div class="col-md-12 col-lg-6">
                   <!-- single info block -->
-                  <div class="info text-center info-boxed">
+                  <div class="info text-center info-boxed curso-ingles">
                     <div class="icon icon-circle">
                       <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                     </div>
@@ -87,7 +89,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
                   <!-- single info block -->
-                  <div class="info text-center info-boxed">
+                  <div class="info text-center info-boxed curso-espanhol">
                     <div class="icon icon-circle">
                       <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                     </div>
@@ -109,7 +111,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
                   <!-- single info block -->
-                  <div class="info text-center info-boxed">
+                  <div class="info text-center info-boxed curso-frances">
                     <div class="icon icon-circle">
                       <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                     </div>
@@ -131,7 +133,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
                   <!-- single info block -->
-                  <div class="info text-center info-boxed">
+                  <div class="info text-center info-boxed curso-portugues">
                     <div class="icon icon-circle">
                       <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                     </div>
@@ -153,7 +155,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
                   <!-- single info block -->
-                  <div class="info text-center info-boxed">
+                  <div class="info text-center info-boxed curso-informatica">
                     <div class="icon icon-circle">
                       <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                     </div>
@@ -176,44 +178,46 @@
               </div>
             <?php }
             else { ?>
-              <a href="<?php echo get_page_link( "17" ); ?>" title="Voltar para os Cursos">
-                <button class="btn btn-primary-outlined btn-sm" type="submit">Voltar para os Cursos</button>
-              </a>
+              <div class="curso-<?php echo $curso; ?>">
+                <a href="<?php echo get_page_link( "17" ); ?>" title="Voltar para os Cursos">
+                  <button class="btn btn-primary-outlined btn-sm" type="submit">Voltar para os Cursos</button>
+                </a>
 
-              <section class=".blog-post-contents">
-                <div class="media blog-media flex-wrap">
-                  <div class="media-body">
-                    <?php the_content(); ?>
+                <section class="blog-post-contents">
+                  <div class="media blog-media flex-wrap">
+                    <div class="media-body">
+                      <?php the_content(); ?>
 
-                    <div class="divider divider-center divider-gradient divider-gradient-gray w50 mx-auto my-5">
-                      <i class="fa fa-circle divider-icon bg-white text-primary"></i>
+                      <div class="divider divider-center divider-gradient divider-gradient-gray w50 mx-auto my-5">
+                        <i class="fa fa-circle divider-icon bg-white text-primary"></i>
+                      </div>
+
+                      <h3 id="lista_niveis_titulo">Cursos:</h3>
+
+                      <?php if( $idP < 315 && $idP > 279 ) { ?>
+                      <div class="list-group">
+                        <?php wp_nav_menu( array('menu' => 'cursos_ingles', 'menu_class' => 'menuCourses' )); ?>
+                      </div>
+
+                      <?php }
+                        else if( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 ) { ?>
+                        <div class="list-group">
+                          <?php wp_nav_menu( array('menu' => 'cursos_espanhol', 'menu_class' => 'menuCourses' )); ?>
+                        </div>
+                      <?php }
+                        else if( $idP <= 336 && $idP >= 328 || $idP == 320 ) { ?>
+                        <div class="list-group">
+                          <?php wp_nav_menu( array('menu' => 'cursos_informatica', 'menu_class' => 'menuCourses' )); ?>
+                        </div>
+                      <?php } else if( $idP == 1070 ){ ?>
+                        <div class="list-group">
+                          <?php wp_nav_menu( array('menu' => 'cursos_frances', 'menu_class' => 'menuCourses' )); ?>
+                        </div>
+                      <?php } ?>
                     </div>
-
-                    <h3 id="lista_niveis_titulo">Cursos:</h3>
-
-                    <?php if( $idP < 315 && $idP > 279 ) { ?>
-                    <div class="list-group">
-                      <?php wp_nav_menu( array('menu' => 'cursos_ingles', 'menu_class' => 'menuCourses' )); ?>
-                    </div>
-
-                    <?php }
-                      else if( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 ) { ?>
-                      <div class="list-group">
-                        <?php wp_nav_menu( array('menu' => 'cursos_espanhol', 'menu_class' => 'menuCourses' )); ?>
-                      </div>
-                    <?php }
-                      else if( $idP <= 336 && $idP >= 328 || $idP == 320 ) { ?>
-                      <div class="list-group">
-                        <?php wp_nav_menu( array('menu' => 'cursos_informatica', 'menu_class' => 'menuCourses' )); ?>
-                      </div>
-                    <?php } else if( $idP == 1070 ){ ?>
-                      <div class="list-group">
-                        <?php wp_nav_menu( array('menu' => 'cursos_frances', 'menu_class' => 'menuCourses' )); ?>
-                      </div>
-                    <?php } ?>
                   </div>
-                </div>
-              </section>
+                </section>
+              </div>
             <?php } ?>
 
             <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'fiskbrasilia2012' ), 'after' => '</div>' ) ); ?>

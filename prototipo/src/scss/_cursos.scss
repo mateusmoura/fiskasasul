@@ -1,0 +1,357 @@
+
+.curso {
+  &-ingles {
+    .icon {
+      color: $curso-ingles !important;
+    }
+
+    &.info.info-boxed {
+      &:hover, &:focus, &:active {
+        .icon-circle {
+          background-color: $curso-ingles-bg !important;
+        }
+      }
+    }
+
+    .btn-primary-outlined {
+      border-color: $curso-ingles !important;
+      color: $curso-ingles !important;
+
+      &:hover, &:focus, &:active {
+        background-color: $curso-ingles-bg !important;
+      }
+    }
+
+    .section-title.title-ex1 {
+      h2 {
+        &:after {
+          background-color: $curso-ingles-bg !important;
+        }
+      }
+    }
+
+    .text-primary {
+      color: $curso-ingles !important;
+    }
+
+    .list-group {
+      .nav-item {
+        background-color: $curso-ingles-bg;
+        margin-bottom: 5px;
+        overflow: hidden;
+        width: 100% !important;
+
+        &:hover, &:focus, &.active {
+          background-color: $curso-ingles;
+
+          .nav-link, span {
+            color: $white-color;
+          }
+        }
+
+        &:before {
+          background-color: $curso-ingles !important;
+          top: 0 !important;
+          height: 100px !important;
+          visibility: visible !important;
+        }
+
+        .nav-link {
+          color: $curso-ingles;
+          font-weight: bold;
+        }
+
+        span {
+          color: $curso-ingles;
+          padding: 0 1rem;
+          position: relative;
+          top: -5px;
+        }
+      }
+    }
+  }
+
+  &-informatica {
+    .icon {
+      color: $curso-informatica !important;
+    }
+
+    &.info.info-boxed {
+      &:hover, &:focus, &:active {
+        .icon-circle {
+          background-color: $curso-informatica-bg !important;
+        }
+      }
+    }
+
+    .btn-primary-outlined {
+      border-color: $curso-informatica !important;
+      color: $curso-informatica !important;
+
+      &:hover, &:focus, &:active {
+        background-color: $curso-informatica-bg !important;
+      }
+    }
+
+    .section-title.title-ex1 {
+      h2 {
+        &:after {
+          background-color: $curso-informatica-bg !important;
+        }
+      }
+    }
+
+    .text-primary {
+      color: $curso-informatica !important;
+    }
+
+    .list-group {
+      .nav-item {
+        background-color: $curso-informatica-bg;
+        margin-bottom: 5px;
+        overflow: hidden;
+        width: 100% !important;
+
+        &:hover, &:focus, &.active {
+          background-color: $curso-informatica;
+
+          .nav-link, span {
+            color: $white-color;
+          }
+        }
+
+        &:before {
+          background-color: $curso-informatica !important;
+          top: 0 !important;
+          height: 100px !important;
+          visibility: visible !important;
+        }
+
+        .nav-link {
+          color: $curso-informatica;
+          font-weight: bold;
+        }
+
+        span {
+          color: $curso-informatica;
+          padding: 0 1rem;
+          position: relative;
+          top: -5px;
+        }
+      }
+    }
+  }
+
+  &-espanhol {
+    .icon {
+      color: $curso-espanhol !important;
+    }
+
+    &.info.info-boxed {
+      &:hover, &:focus, &:active {
+        .icon-circle {
+          background-color: $curso-espanhol-bg !important;
+        }
+      }
+    }
+
+    .btn-primary-outlined {
+      border-color: $curso-espanhol !important;
+      color: $curso-espanhol !important;
+
+      &:hover, &:focus, &:active {
+        background-color: $curso-espanhol-bg !important;
+      }
+    }
+
+    .section-title.title-ex1 {
+      h2 {
+        &:after {
+          background-color: $curso-espanhol-bg !important;
+        }
+      }
+    }
+
+    .text-primary {
+      color: $curso-espanhol !important;
+    }
+
+    .list-group {
+      .nav-item {
+        background-color: $curso-espanhol-bg;
+        margin-bottom: 5px;
+        overflow: hidden;
+        width: 100% !important;
+
+        &:hover, &:focus, &.active {
+          background-color: $curso-espanhol;
+
+          .nav-link, span {
+            color: $white-color;
+          }
+        }
+
+        &:before {
+          background-color: $curso-espanhol !important;
+          top: 0 !important;
+          height: 100px !important;
+          visibility: visible !important;
+        }
+
+        .nav-link {
+          color: $curso-espanhol;
+          font-weight: bold;
+        }
+
+        span {
+          color: $curso-espanhol;
+          padding: 0 1rem;
+          position: relative;
+          top: -5px;
+        }
+      }
+    }
+  }
+
+  &-portugues {
+    .icon {
+      color: $curso-portugues !important;
+    }
+
+    &.info.info-boxed {
+      &:hover, &:focus, &:active {
+        .icon-circle {
+          background-color: $curso-portugues-bg !important;
+        }
+      }
+    }
+
+    .btn-primary-outlined {
+      border-color: $curso-portugues !important;
+      color: $curso-portugues !important;
+
+      &:hover, &:focus, &:active {
+        background-color: $curso-portugues-bg !important;
+      }
+    }
+
+    .section-title.title-ex1 {
+      h2 {
+        &:after {
+          background-color: $curso-portugues-bg !important;
+        }
+      }
+    }
+
+    .text-primary {
+      color: $curso-portugues !important;
+    }
+
+    .list-group {
+      .nav-item {
+        background-color: $curso-portugues-bg;
+        margin-bottom: 5px;
+        overflow: hidden;
+        width: 100% !important;
+
+        &:hover, &:focus, &.active {
+          background-color: $curso-portugues;
+
+          .nav-link, span {
+            color: $white-color;
+          }
+        }
+
+        &:before {
+          background-color: $curso-portugues !important;
+          top: 0 !important;
+          height: 100px !important;
+          visibility: visible !important;
+        }
+
+        .nav-link {
+          color: $curso-portugues;
+          font-weight: bold;
+        }
+
+        span {
+          color: $curso-portugues;
+          padding: 0 1rem;
+          position: relative;
+          top: -5px;
+        }
+      }
+    }
+  }
+
+  &-frances {
+    .icon {
+      color: $curso-frances !important;
+    }
+
+    &.info.info-boxed {
+      &:hover, &:focus, &:active {
+        .icon-circle {
+          background-color: $curso-frances-bg !important;
+        }
+      }
+    }
+
+    .btn-primary-outlined {
+      border-color: $curso-frances !important;
+      color: $curso-frances !important;
+
+      &:hover, &:focus, &:active {
+        background-color: $curso-frances-bg !important;
+      }
+    }
+
+    .section-title.title-ex1 {
+      h2 {
+        &:after {
+          background-color: $curso-frances-bg !important;
+        }
+      }
+    }
+
+    .text-primary {
+      color: $curso-frances !important;
+    }
+
+    .list-group {
+      .nav-item {
+        background-color: $curso-frances-bg;
+        margin-bottom: 5px;
+        overflow: hidden;
+        width: 100% !important;
+
+        &:hover, &:focus, &.active {
+          background-color: $curso-frances;
+
+          .nav-link, span {
+            color: $white-color;
+          }
+        }
+
+        &:before {
+          background-color: $curso-frances !important;
+          top: 0 !important;
+          height: 100px !important;
+          visibility: visible !important;
+        }
+
+        .nav-link {
+          color: $curso-frances;
+          font-weight: bold;
+        }
+
+        span {
+          color: $curso-frances;
+          padding: 0 1rem;
+          position: relative;
+          top: -5px;
+        }
+      }
+    }
+  }
+}

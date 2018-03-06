@@ -9955,4 +9955,299 @@ body.pattern-04 {
   background-position: center;
 }
 
+.curso-ingles .icon {
+  color: #0060af !important;
+}
+
+.curso-ingles.info.info-boxed:hover .icon-circle, .curso-ingles.info.info-boxed:focus .icon-circle, .curso-ingles.info.info-boxed:active .icon-circle {
+  background-color: #aacce7 !important;
+}
+
+.curso-ingles .btn-primary-outlined {
+  border-color: #0060af !important;
+  color: #0060af !important;
+}
+
+.curso-ingles .btn-primary-outlined:hover, .curso-ingles .btn-primary-outlined:focus, .curso-ingles .btn-primary-outlined:active {
+  background-color: #aacce7 !important;
+}
+
+.curso-ingles .section-title.title-ex1 h2:after {
+  background-color: #aacce7 !important;
+}
+
+.curso-ingles .text-primary {
+  color: #0060af !important;
+}
+
+.curso-ingles .list-group .nav-item, div.list-group .curso-ingles ul.menu .nav-item {
+  background-color: #aacce7;
+  margin-bottom: 5px;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.curso-ingles .list-group .nav-item:hover, div.list-group .curso-ingles ul.menu .nav-item:hover, .curso-ingles .list-group .nav-item:focus, div.list-group .curso-ingles ul.menu .nav-item:focus, .curso-ingles .list-group .nav-item.active, div.list-group .curso-ingles ul.menu .nav-item.active {
+  background-color: #0060af;
+}
+
+.curso-ingles .list-group .nav-item:hover .nav-link, div.list-group .curso-ingles ul.menu .nav-item:hover .nav-link, .curso-ingles .list-group .nav-item:hover span, div.list-group .curso-ingles ul.menu .nav-item:hover span, .curso-ingles .list-group .nav-item:focus .nav-link, div.list-group .curso-ingles ul.menu .nav-item:focus .nav-link, .curso-ingles .list-group .nav-item:focus span, div.list-group .curso-ingles ul.menu .nav-item:focus span, .curso-ingles .list-group .nav-item.active .nav-link, div.list-group .curso-ingles ul.menu .nav-item.active .nav-link, .curso-ingles .list-group .nav-item.active span, div.list-group .curso-ingles ul.menu .nav-item.active span {
+  color: #ffffff;
+}
+
+.curso-ingles .list-group .nav-item:before, div.list-group .curso-ingles ul.menu .nav-item:before {
+  background-color: #0060af !important;
+  top: 0 !important;
+  height: 100px !important;
+  visibility: visible !important;
+}
+
+.curso-ingles .list-group .nav-item .nav-link, div.list-group .curso-ingles ul.menu .nav-item .nav-link {
+  color: #0060af;
+  font-weight: bold;
+}
+
+.curso-ingles .list-group .nav-item span, div.list-group .curso-ingles ul.menu .nav-item span {
+  color: #0060af;
+  padding: 0 1rem;
+  position: relative;
+  top: -5px;
+}
+
+.curso-informatica .icon {
+  color: #00a29d !important;
+}
+
+.curso-informatica.info.info-boxed:hover .icon-circle, .curso-informatica.info.info-boxed:focus .icon-circle, .curso-informatica.info.info-boxed:active .icon-circle {
+  background-color: #b5ecea !important;
+}
+
+.curso-informatica .btn-primary-outlined {
+  border-color: #00a29d !important;
+  color: #00a29d !important;
+}
+
+.curso-informatica .btn-primary-outlined:hover, .curso-informatica .btn-primary-outlined:focus, .curso-informatica .btn-primary-outlined:active {
+  background-color: #b5ecea !important;
+}
+
+.curso-informatica .section-title.title-ex1 h2:after {
+  background-color: #b5ecea !important;
+}
+
+.curso-informatica .text-primary {
+  color: #00a29d !important;
+}
+
+.curso-informatica .list-group .nav-item, div.list-group .curso-informatica ul.menu .nav-item {
+  background-color: #b5ecea;
+  margin-bottom: 5px;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.curso-informatica .list-group .nav-item:hover, div.list-group .curso-informatica ul.menu .nav-item:hover, .curso-informatica .list-group .nav-item:focus, div.list-group .curso-informatica ul.menu .nav-item:focus, .curso-informatica .list-group .nav-item.active, div.list-group .curso-informatica ul.menu .nav-item.active {
+  background-color: #00a29d;
+}
+
+.curso-informatica .list-group .nav-item:hover .nav-link, div.list-group .curso-informatica ul.menu .nav-item:hover .nav-link, .curso-informatica .list-group .nav-item:hover span, div.list-group .curso-informatica ul.menu .nav-item:hover span, .curso-informatica .list-group .nav-item:focus .nav-link, div.list-group .curso-informatica ul.menu .nav-item:focus .nav-link, .curso-informatica .list-group .nav-item:focus span, div.list-group .curso-informatica ul.menu .nav-item:focus span, .curso-informatica .list-group .nav-item.active .nav-link, div.list-group .curso-informatica ul.menu .nav-item.active .nav-link, .curso-informatica .list-group .nav-item.active span, div.list-group .curso-informatica ul.menu .nav-item.active span {
+  color: #ffffff;
+}
+
+.curso-informatica .list-group .nav-item:before, div.list-group .curso-informatica ul.menu .nav-item:before {
+  background-color: #00a29d !important;
+  top: 0 !important;
+  height: 100px !important;
+  visibility: visible !important;
+}
+
+.curso-informatica .list-group .nav-item .nav-link, div.list-group .curso-informatica ul.menu .nav-item .nav-link {
+  color: #00a29d;
+  font-weight: bold;
+}
+
+.curso-informatica .list-group .nav-item span, div.list-group .curso-informatica ul.menu .nav-item span {
+  color: #00a29d;
+  padding: 0 1rem;
+  position: relative;
+  top: -5px;
+}
+
+.curso-espanhol .icon {
+  color: #f99d1c !important;
+}
+
+.curso-espanhol.info.info-boxed:hover .icon-circle, .curso-espanhol.info.info-boxed:focus .icon-circle, .curso-espanhol.info.info-boxed:active .icon-circle {
+  background-color: #f2e8b0 !important;
+}
+
+.curso-espanhol .btn-primary-outlined {
+  border-color: #f99d1c !important;
+  color: #f99d1c !important;
+}
+
+.curso-espanhol .btn-primary-outlined:hover, .curso-espanhol .btn-primary-outlined:focus, .curso-espanhol .btn-primary-outlined:active {
+  background-color: #f2e8b0 !important;
+}
+
+.curso-espanhol .section-title.title-ex1 h2:after {
+  background-color: #f2e8b0 !important;
+}
+
+.curso-espanhol .text-primary {
+  color: #f99d1c !important;
+}
+
+.curso-espanhol .list-group .nav-item, div.list-group .curso-espanhol ul.menu .nav-item {
+  background-color: #f2e8b0;
+  margin-bottom: 5px;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.curso-espanhol .list-group .nav-item:hover, div.list-group .curso-espanhol ul.menu .nav-item:hover, .curso-espanhol .list-group .nav-item:focus, div.list-group .curso-espanhol ul.menu .nav-item:focus, .curso-espanhol .list-group .nav-item.active, div.list-group .curso-espanhol ul.menu .nav-item.active {
+  background-color: #f99d1c;
+}
+
+.curso-espanhol .list-group .nav-item:hover .nav-link, div.list-group .curso-espanhol ul.menu .nav-item:hover .nav-link, .curso-espanhol .list-group .nav-item:hover span, div.list-group .curso-espanhol ul.menu .nav-item:hover span, .curso-espanhol .list-group .nav-item:focus .nav-link, div.list-group .curso-espanhol ul.menu .nav-item:focus .nav-link, .curso-espanhol .list-group .nav-item:focus span, div.list-group .curso-espanhol ul.menu .nav-item:focus span, .curso-espanhol .list-group .nav-item.active .nav-link, div.list-group .curso-espanhol ul.menu .nav-item.active .nav-link, .curso-espanhol .list-group .nav-item.active span, div.list-group .curso-espanhol ul.menu .nav-item.active span {
+  color: #ffffff;
+}
+
+.curso-espanhol .list-group .nav-item:before, div.list-group .curso-espanhol ul.menu .nav-item:before {
+  background-color: #f99d1c !important;
+  top: 0 !important;
+  height: 100px !important;
+  visibility: visible !important;
+}
+
+.curso-espanhol .list-group .nav-item .nav-link, div.list-group .curso-espanhol ul.menu .nav-item .nav-link {
+  color: #f99d1c;
+  font-weight: bold;
+}
+
+.curso-espanhol .list-group .nav-item span, div.list-group .curso-espanhol ul.menu .nav-item span {
+  color: #f99d1c;
+  padding: 0 1rem;
+  position: relative;
+  top: -5px;
+}
+
+.curso-portugues .icon {
+  color: #00ae4d !important;
+}
+
+.curso-portugues.info.info-boxed:hover .icon-circle, .curso-portugues.info.info-boxed:focus .icon-circle, .curso-portugues.info.info-boxed:active .icon-circle {
+  background-color: #90dab1 !important;
+}
+
+.curso-portugues .btn-primary-outlined {
+  border-color: #00ae4d !important;
+  color: #00ae4d !important;
+}
+
+.curso-portugues .btn-primary-outlined:hover, .curso-portugues .btn-primary-outlined:focus, .curso-portugues .btn-primary-outlined:active {
+  background-color: #90dab1 !important;
+}
+
+.curso-portugues .section-title.title-ex1 h2:after {
+  background-color: #90dab1 !important;
+}
+
+.curso-portugues .text-primary {
+  color: #00ae4d !important;
+}
+
+.curso-portugues .list-group .nav-item, div.list-group .curso-portugues ul.menu .nav-item {
+  background-color: #90dab1;
+  margin-bottom: 5px;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.curso-portugues .list-group .nav-item:hover, div.list-group .curso-portugues ul.menu .nav-item:hover, .curso-portugues .list-group .nav-item:focus, div.list-group .curso-portugues ul.menu .nav-item:focus, .curso-portugues .list-group .nav-item.active, div.list-group .curso-portugues ul.menu .nav-item.active {
+  background-color: #00ae4d;
+}
+
+.curso-portugues .list-group .nav-item:hover .nav-link, div.list-group .curso-portugues ul.menu .nav-item:hover .nav-link, .curso-portugues .list-group .nav-item:hover span, div.list-group .curso-portugues ul.menu .nav-item:hover span, .curso-portugues .list-group .nav-item:focus .nav-link, div.list-group .curso-portugues ul.menu .nav-item:focus .nav-link, .curso-portugues .list-group .nav-item:focus span, div.list-group .curso-portugues ul.menu .nav-item:focus span, .curso-portugues .list-group .nav-item.active .nav-link, div.list-group .curso-portugues ul.menu .nav-item.active .nav-link, .curso-portugues .list-group .nav-item.active span, div.list-group .curso-portugues ul.menu .nav-item.active span {
+  color: #ffffff;
+}
+
+.curso-portugues .list-group .nav-item:before, div.list-group .curso-portugues ul.menu .nav-item:before {
+  background-color: #00ae4d !important;
+  top: 0 !important;
+  height: 100px !important;
+  visibility: visible !important;
+}
+
+.curso-portugues .list-group .nav-item .nav-link, div.list-group .curso-portugues ul.menu .nav-item .nav-link {
+  color: #00ae4d;
+  font-weight: bold;
+}
+
+.curso-portugues .list-group .nav-item span, div.list-group .curso-portugues ul.menu .nav-item span {
+  color: #00ae4d;
+  padding: 0 1rem;
+  position: relative;
+  top: -5px;
+}
+
+.curso-frances .icon {
+  color: #2E3192 !important;
+}
+
+.curso-frances.info.info-boxed:hover .icon-circle, .curso-frances.info.info-boxed:focus .icon-circle, .curso-frances.info.info-boxed:active .icon-circle {
+  background-color: #00A3E6 !important;
+}
+
+.curso-frances .btn-primary-outlined {
+  border-color: #2E3192 !important;
+  color: #2E3192 !important;
+}
+
+.curso-frances .btn-primary-outlined:hover, .curso-frances .btn-primary-outlined:focus, .curso-frances .btn-primary-outlined:active {
+  background-color: #00A3E6 !important;
+}
+
+.curso-frances .section-title.title-ex1 h2:after {
+  background-color: #00A3E6 !important;
+}
+
+.curso-frances .text-primary {
+  color: #2E3192 !important;
+}
+
+.curso-frances .list-group .nav-item, div.list-group .curso-frances ul.menu .nav-item {
+  background-color: #00A3E6;
+  margin-bottom: 5px;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.curso-frances .list-group .nav-item:hover, div.list-group .curso-frances ul.menu .nav-item:hover, .curso-frances .list-group .nav-item:focus, div.list-group .curso-frances ul.menu .nav-item:focus, .curso-frances .list-group .nav-item.active, div.list-group .curso-frances ul.menu .nav-item.active {
+  background-color: #2E3192;
+}
+
+.curso-frances .list-group .nav-item:hover .nav-link, div.list-group .curso-frances ul.menu .nav-item:hover .nav-link, .curso-frances .list-group .nav-item:hover span, div.list-group .curso-frances ul.menu .nav-item:hover span, .curso-frances .list-group .nav-item:focus .nav-link, div.list-group .curso-frances ul.menu .nav-item:focus .nav-link, .curso-frances .list-group .nav-item:focus span, div.list-group .curso-frances ul.menu .nav-item:focus span, .curso-frances .list-group .nav-item.active .nav-link, div.list-group .curso-frances ul.menu .nav-item.active .nav-link, .curso-frances .list-group .nav-item.active span, div.list-group .curso-frances ul.menu .nav-item.active span {
+  color: #ffffff;
+}
+
+.curso-frances .list-group .nav-item:before, div.list-group .curso-frances ul.menu .nav-item:before {
+  background-color: #2E3192 !important;
+  top: 0 !important;
+  height: 100px !important;
+  visibility: visible !important;
+}
+
+.curso-frances .list-group .nav-item .nav-link, div.list-group .curso-frances ul.menu .nav-item .nav-link {
+  color: #2E3192;
+  font-weight: bold;
+}
+
+.curso-frances .list-group .nav-item span, div.list-group .curso-frances ul.menu .nav-item span {
+  color: #2E3192;
+  padding: 0 1rem;
+  position: relative;
+  top: -5px;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
