@@ -40,11 +40,11 @@
           <div class="col-lg-8">
             <!-- blog single column starts -->
             <div class="media blog-media flex-wrap">
-              <div class="media-body">
-              <div class="section-title title-ex1">
-                <h2 class="title-text"><?php the_title(); ?></h2>
-                <!-- <p class="description">Inventore cillum soluta inceptos eos platea, soluta class laoreet repellendus imperdiet optio.</p> -->
-              </div>
+              <div class="media-body page">
+                <div class="section-title title-ex1">
+                  <h2 class="title-text"><?php the_title(); ?></h2>
+                  <!-- <p class="description">Inventore cillum soluta inceptos eos platea, soluta class laoreet repellendus imperdiet optio.</p> -->
+                </div>
 
                 <?php the_content(); ?>
 

@@ -620,6 +620,22 @@ header {
         }
       }
     }
+
+    &.current_page_item{
+      > a.nav-link {
+        color: $primary-color;
+        font-weight: bold;
+      }
+
+      ul {
+        li.current_page_item {
+          a.nav-link {
+            background-color: $primary-color;
+            color: $white-color;
+          }
+        }
+      }
+    }
   }
   &.navbar-sticky {
     position: fixed;
@@ -635,6 +651,21 @@ header {
         color: $title-color;
         &:hover {
           color: $primary-color;
+        }
+      }
+
+      &.current_page_item {
+        > a.nav-link {
+          color: $primary-color;
+        }
+
+        ul {
+          li.current_page_item {
+            a.nav-link {
+              background-color: $primary-color;
+              color: $white-color;
+            }
+          }
         }
       }
     }

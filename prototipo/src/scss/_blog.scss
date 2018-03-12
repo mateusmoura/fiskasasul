@@ -82,6 +82,8 @@
   }
   .media.blog-media {
     margin-top: 0px;
+    width: 100%;
+
     .media-body {
         padding: 30px;
         border: 1px solid #eeeef2;
@@ -91,6 +93,32 @@
         }
         ul {
           padding-top: 15px;
+          // @extend .styled_list;
+
+          li {
+            font-size: 14px;
+            float: left;
+            width: 50%;
+          }
+        }
+
+        &.page {
+          width: 100%;
+
+          ul {
+            @extend .styled_list;
+            margin-left: 15px;
+            margin-bottom: 15px;
+            padding-top: 0;
+            margin-top: 0;
+  
+            li {
+              font-size: 14px;
+              float: none;
+              width: auto;
+              list-style-type: inherit;
+            }
+          }
         }
 
         h3, h2, h4, h5 {

@@ -3,7 +3,7 @@
   //============================== NAVBAR =========================
   setTimeout(function(){
     $('body').addClass('loaded');
-  }, 3000);
+  }, 1000);
 
   $(window).on('load', function(){
     var header_area = $('.header');
@@ -745,10 +745,6 @@
 
   //=========================== CURSOS - INTERNA ========================== 
   var listagemDeCursos = $('.blog-media .list-group .menuCourses');
-
-  console.log('====================================');
-  console.log(listagemDeCursos);
-  console.log('====================================');
   $("li", listagemDeCursos).each( function(){
     var $li = $(this),
       tx = $( "a", $li ).attr( "title" );

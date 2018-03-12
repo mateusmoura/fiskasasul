@@ -185,7 +185,7 @@
 
                 <section class="blog-post-contents">
                   <div class="media blog-media flex-wrap">
-                    <div class="media-body">
+                    <div class="media-body page-courses">
                       <?php the_content(); ?>
 
                       <div class="divider divider-center divider-gradient divider-gradient-gray w50 mx-auto my-5">
