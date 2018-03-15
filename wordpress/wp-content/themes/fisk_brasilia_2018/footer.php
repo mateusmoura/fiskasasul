@@ -68,10 +68,10 @@
             </p> -->
             <div class="social-icons">
               <a href="https://www.facebook.com/fiskbrasilia1" class="btn btn-social btn-social-o facebook">
-                <i class="fa fa-facebook-f"></i>
+                <i class="fab fa-facebook-f"></i>
               </a>
               <a href="https://twitter.com/fiskbrasilia" class="btn btn-social btn-social-o twitter">
-                <i class="fa fa-twitter"></i>
+                <i class="fab fa-twitter"></i>
               </a>
               <!-- <a href="#" class="btn btn-social btn-social-o pinterest">
                 <i class="fa fa-pinterest-p"></i>
@@ -111,6 +111,21 @@
     </div>
   </footer>
 </div><!-- .main-wrapper -->
+
+<!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span class="bar-1"></span>
+        <span class="bar-2"></span>
+    </button>
+    <form name="search" action="<?php bloginfo('home'); ?>/" method="get">
+      <input type="text" autofocus name="s" id="s" placeholder="Buscando...">
+    </form>
+  </div>
+  </div>
+</div>
 
 <?php
   /* Always have wp_footer() just before the closing </body>

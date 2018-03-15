@@ -7,94 +7,110 @@
  * http://codex.wordpress.org/Template_Tags to understand
  * the tags used in it.
  *
- * This can be overridden in child themes with loop-contact.php.
+ * This can be overridden in child themes with loop-page.php.
  *
  * @package WordPress
- * @subpackage fisk_brasilia_2012
- * @since Twenty Ten 1.2
+ * @subpackage fisk_brasilia_2018
+ * @since Fisk Brasilia 2018 2.0
  */
 ?>
-<div id="pagina_titulo">
-	<span id="predios" class="internal"></span>
-</div>
 
-<div id="qualidade_fisk"></div>
+<div>
+  <!-- BREDCRUMB -->
+  <div class="bredcrumb bg-image text-center" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/bredcrumb.jpg');">
+    <div class="row bredcrumb-inner">
+      <div class="col-sm-12  align-self-center">
+        <h2><?php the_title(); ?></h2>
+        <ul class="">
+          <li>
+            <a href="<?php echo home_url( '/' ); ?>" class="bread_link">Home</a>
+          </li>
+          <li>Contatos</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<div id="mascote" class="internal"></div>
+  <!-- BLOG -->
+  <section class="contact">
+    <div class="container">
+      <!-- Blog post area starts -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title text-center title-ex1">
+            <h2 class="title-text">Asa Sul</h2>
 
+            <div class="text-center">
+              <p><a href="mailto:contato@fiskasasul.com.br">contato@fiskasasul.com.br</a></p>
+              <p class=" telefone">(61) 3345-0083 / 3345-0087</p>
+              <p class=" cep">CLS 115 Bloco B Loja 02, Brasília - DF, 70385-520</p>
 
-<div id="conteudo_pagina">
-	<h1 id="pagina_titulo" class="title-68">Contatos</h1>
-	<div id="telefones">
-		<div class="unidade" id="unidade_asasul">
-			<div class="endereco_unidade">
-				<h1>FISK Asa Sul</h1>
-				<p><a href="mailto:contato@fiskasasul.com.br">contato@fiskasasul.com.br</a></p>
-				<p class="telefone">(61) 3345-0083 / 3345-0087</p>
-				<!-- <p class="whatsapp">(61) 9835-0827</p> -->
-				<p class="cep">CLS 115 Bloco B Loja 02, Brasília - DF, 70385-520</p>
-			</div>
-			<div class="iframe_unidade" id="iframe_asasul">
-				<iframe width="420" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=fisk+taguatinga+norte&amp;sll=-15.811517,-48.067723&amp;sspn=0.003427,0.003809&amp;ie=UTF8&amp;hq=fisk+taguatinga+norte&amp;hnear=&amp;ll=-15.815791,-47.916698&amp;spn=0.013708,0.015235&amp;t=h&amp;z=14&amp;iwloc=A&amp;cid=17794833991437097202&amp;output=embed"></iframe>
-				<p><a id="mapa_asasul" class="ampliar_mapa" href="http://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=FISK+asa+sul&amp;sll=-15.832182,-47.919896&amp;sspn=0.013707,0.02341&amp;ie=UTF8&amp;hq=FISK+asa+sul&amp;hnear=&amp;ll=-15.815791,-47.916698&amp;spn=0.027415,0.046821&amp;t=h&amp;z=14&amp;iwloc=A&amp;cid=17794833991437097202">Ampliar mapa da FISK Asa Sul</a></p>
-			</div>
-		</div>
-		<div class="unidade" id="unidade_tagua">
-			<div class="endereco_unidade">
-				<h1>FISK Taguatinga Norte</h1>
-				<p><a href="mailto:contato@fisktaguatinganorte.com.br"></a></p>
-				<p class="telefone">(61) 3355-1191 / 3355-1192</p>
-				<!-- <p class="whatsapp">(61) 9962-3413</p> -->
-				<p class="cep">Av. Samdu Norte QNE 24 Casa 05, Taguatinga Norte, Brasília - DF, 72125-240</p>
-			</div>
-			<div class="iframe_unidade" id="iframe_tagua">
-				<iframe width="420" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=fisk+taguatinga+norte&amp;sll=-15.811517,-48.067723&amp;sspn=0.003427,0.003809&amp;ie=UTF8&amp;hq=fisk+taguatinga+norte&amp;hnear=&amp;ll=-15.797292,-48.064156&amp;spn=0.013709,0.015235&amp;t=h&amp;z=14&amp;iwloc=A&amp;cid=5613554592190533086&amp;output=embed"></iframe>
-				<p><a id="mapa_tagua" class="ampliar_mapa" href="http://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=FISK&amp;sll=-15.811156,-48.066999&amp;sspn=0.006854,0.007617&amp;ie=UTF8&amp;hq=FISK&amp;hnear=&amp;ll=-15.797292,-48.064156&amp;spn=0.001714,0.001904&amp;t=h&amp;z=14&amp;iwloc=A&amp;cid=5613554592190533086">Ampliar mapa da FISK Taguatinga Norte</a></p>
-			</div>
-		</div>
-		<script type="text/javascript" charset="utf-8">
-		$(function(){
-			$('div.endereco_unidade').click(function(){
-				alvo = $(this).children('p').children('a').attr('href');
-				location.href = alvo;
-			});
-			$('a.ampliar_mapa').click(function(){
-				id = $(this).attr('id');
-				if(id=='mapa_tagua'){
-					$('div#unidade_asasul').hide();
-					$('div#iframe_tagua').addClass('wide_frame');
-					$('div#iframe_tagua iframe').attr('width','860');
-				} else {
-					$('div#unidade_tagua').hide();
-					$('div#iframe_asasul').addClass('wide_frame');
-					$('div#iframe_asasul iframe').attr('width','860');
-				}
-				return false;
-			});
-		});
-		</script>
-		<div class="formContact">
-		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-			<p>Para enviar sua mensagem, preencha <strong>todos</strong> os campos abaixo.</p>
-			<?php the_content(); ?>
-		<?php endwhile; // end of the loop. ?>
-		</div>
-		<div class="unidade" id="unidade_asanorte">
-			<div class="endereco_unidade">
-				<h1>FISK Asa Norte</h1>
-				<p><a href="mailto:contato@fiskasasul.com.br">contato@fiskasasul.com.br</a></p>
-				<p class="telefone">(61) 3041-8474 / 3041-8797</p>
-				<!-- <p class="whatsapp">(61) 9808-2861</p> -->
-				<p class="cep">SHCGN 714/715 Bloco E Lojas 22/24 - de frente para a Av. W-4 e também à Igreja São Francisco de Assis e ao Colégio Leonardo Da Vinci</p>
-			</div>
-			<div class="iframe_unidade" id="iframe_asasul">
-				<iframe width="420" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=SHCGN+714%2F715+Bloco+E+Lojas+22%2F24&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=47.955796,78.837891&amp;t=h&amp;ie=UTF8&amp;hq=Lojas+22%2F24&amp;hnear=Shcgn+714+-+Bras%C3%ADlia,+Distrito+Federal&amp;ll=-15.745462,-47.899662&amp;spn=0.002989,0.004812&amp;z=14&amp;iwloc=A&amp;cid=1528093974244964236&amp;output=embed"></iframe>
-				<p><a id="mapa_asanorte" class="ampliar_mapa" href="https://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=SHCGN+714%2F715+Bloco+E+Lojas+22%2F24&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=47.955796,78.837891&amp;t=h&amp;ie=UTF8&amp;hq=Lojas+22%2F24&amp;hnear=Shcgn+714+-+Bras%C3%ADlia,+Distrito+Federal&amp;ll=-15.745462,-47.899662&amp;spn=0.002989,0.004812&amp;z=14&amp;iwloc=A&amp;cid=1528093974244964236">Ampliar mapa da FISK Asa Norte</a></p>
-			</div>
-		</div>
-	</div>
-	<div class="clear"></div>
-</div>
-<div id="navegador">
-	<p><a href="<?php echo home_url( '/' ); ?>">Página Inicial</a> : <a href="<?php echo get_page_link() ?>"><?php the_title(); ?></a> : <?php the_title(); ?></p>
+              <br /><br />
+            </div>
+
+            <div class="contact-google">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5342.891300909032!2d-47.926070284331566!3d-15.831078028077702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2555ea80001d%3A0x1932d20900ee462a!2sFisk-Asa+Sul!5e1!3m2!1spt-BR!2sbr!4v1521153473415" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <p><a id="mapa_asasul" class="ampliar_mapa" href="https://www.google.com.br/maps/place/Fisk-Asa+Sul/@-15.831078,-47.9260703,1227m/data=!3m2!1e3!4b1!4m5!3m4!1s0x935a2555ea80001d:0x1932d20900ee462a!8m2!3d-15.8310832!4d-47.9238816?hl=pt-BR">Ampliar mapa da FISK Asa Sul</a></p>
+            </div>
+            <br /><br /><br />
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="section-title text-center title-ex1">
+            <h2 class="title-text">FISK Taguatinga Norte</h2>
+
+            <div class="text-center">
+              <p><a href="mailto:contato@fisktaguatinganorte.com.br">contato@fisktaguatinganorte.com.br</a></p>
+              <p class="telefone">(61) 3355-1191 / 3355-1192</p>
+              <p class="cep">Av. Samdu Norte QNE 24 Casa 05, Taguatinga Norte, Brasília - DF, 72125-240</p>
+
+              <br /><br />
+            </div>
+
+            <div class="contact-google">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85489.21957517684!2d-48.030822177046474!3d-15.824083013238164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a333b021659e7%3A0xae02f16ca7871444!2sFisk+Ingl%C3%AAs+e+Espanhol!5e1!3m2!1spt-BR!2sbr!4v1521153663128" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <p><a id="mapa_tagua" class="ampliar_mapa" href="https://goo.gl/maps/ZxvJnw8Q1vo" target="_blank">Ampliar mapa da FISK Taguatinga Norte</a></p>
+            </div>
+
+            <br /><br /><br />
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="section-title text-center title-ex1">
+            <h2 class="title-text">FISK Asa Norte</h2>
+
+            <div class="text-center">
+              <p><a href="mailto:contato@fiskasanorte.com.br">contato@fiskasanorte.com.br</a></p>
+              <p class="telefone">(61) 3041-8474 / 3041-8797</p>
+              <p class="cep">SHCGN 714/715 Bloco E Lojas 22/24 - de frente para a Av. W-4 e também à Igreja São Francisco de Assis e ao Colégio Leonardo Da Vinci</p>
+
+              <br /><br />
+            </div>
+
+            <div class="contact-google">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42761.19482586792!2d-47.899662000000006!3d-15.745462000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1534e15f9649378c!2sFisk+Centro+de+Ensino!5e1!3m2!1spt-BR!2sbr!4v1521153849192" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <p><a id="mapa_asanorte" class="ampliar_mapa" href="https://goo.gl/maps/ydPKbH4inDJ2" target="_blank">Ampliar mapa da FISK Asa Norte</a></p>
+            </div>
+
+            <br /><br /><br />
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="media blog-media flex-wrap">
+            <div class="media-body page">
+              <div class="entry-content">
+                <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+                  <p>Para enviar sua mensagem, preencha <strong>todos</strong> os campos abaixo.</p>
+                  <?php the_content(); ?>
+                <?php endwhile; // end of the loop. ?>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </DIV>
+  </section>
 </div>

@@ -228,13 +228,13 @@
 
         <!-- Leave a Comment ends -->
         <div class="col-lg-4 blog-sidebar sidebar">
-          <form class="form_search">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search...">
+          <form class="form_search" name="search" action="<?php bloginfo('home'); ?>/" method="get">
+            <input class="form-control mr-sm-2" type="text" name="s" id="s" placeholder="Buscando..." value="<?php echo wp_specialchars($s, 1); ?>">
             <button class="btn-search btn-search my-sm-0" type="submit">
               <i class="fa fa-search"></i>
             </button>
           </form>
-          
+
           <div class="list-group">
             <!-- <?php
               wp_list_pages('depth=0&title_li=&exclude=229,231,68,5,33,60,2,9,11,15,17,19,21,23,25,62,64,66,216&sort_column=menu_order'); 

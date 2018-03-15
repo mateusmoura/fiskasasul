@@ -93,8 +93,8 @@
           </div>
 
           <div class="col-lg-4 blog-sidebar sidebar">
-            <form class="form_search">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search...">
+            <form class="form_search" name="search" action="<?php bloginfo('home'); ?>/" method="get">
+              <input class="form-control mr-sm-2" type="text" name="s" id="s" placeholder="Buscando..." value="<?php echo wp_specialchars($s, 1); ?>">
               <button class="btn-search btn-search my-sm-0" type="submit">
                 <i class="fa fa-search"></i>
               </button>
