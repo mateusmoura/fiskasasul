@@ -24,6 +24,9 @@
  *                           Default 0 (no expiration).
  * @return bool False if cache key and group already exist, true on success.
  */
+ini_set(‘memory_limit’,’64M’);
+
+
 function wp_cache_add( $key, $data, $group = '', $expire = 0 ) {
 	global $wp_object_cache;
 

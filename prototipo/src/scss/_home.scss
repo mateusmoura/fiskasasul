@@ -797,6 +797,8 @@ body {
     .media-body {
       border: 1px solid #efeff3;
       width: 100%;
+      order: 2;
+      flex: auto;
     }
   }
 }
