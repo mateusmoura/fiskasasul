@@ -3,7 +3,7 @@
   //============================== NAVBAR =========================
   setTimeout(function(){
     $('body').addClass('loaded');
-  }, 1000);
+  }, 400);
 
   $(window).on('load', function(){
     var header_area = $('.header');

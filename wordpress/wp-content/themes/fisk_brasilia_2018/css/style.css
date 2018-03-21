@@ -5740,6 +5740,7 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
   .main-nav .navbar-brand {
     width: 230px;
     overflow: visible;
+    position: relative;
   }
   .main-nav .navbar-brand img {
     width: auto;
@@ -6213,6 +6214,12 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
 .search_hook {
   position: relative;
   width: 100%;
+}
+
+@media (min-width: 992px) {
+  .search_hook {
+    width: auto;
+  }
 }
 
 .search_hook:before {
@@ -8729,7 +8736,6 @@ body.loaded {
 
 .contact form .btn {
   font-size: 12px;
-  border-radius: 100px;
   font-weight: 400;
   padding: 0 26px;
   width: 100%;

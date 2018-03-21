@@ -289,7 +289,8 @@
           </section>
 
           <div class="col-md-12 align-center">
-            <div class="fb-page" data-href="https://www.facebook.com/fiskbrasilia1/?fref=ts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fiskbrasilia1/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fiskbrasilia1/?fref=ts">Fisk Brasília</a></blockquote></div>
+            <!-- <div class="fb-page" data-href="https://www.facebook.com/fiskbrasilia1/?fref=ts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fiskbrasilia1/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fiskbrasilia1/?fref=ts">Fisk Brasília</a></blockquote></div> -->
+            <?php echo do_shortcode("[instagram-feed]"); ?>
           </div>
         </div>
 

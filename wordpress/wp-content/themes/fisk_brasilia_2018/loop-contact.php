@@ -25,7 +25,7 @@
           <li>
             <a href="<?php echo home_url( '/' ); ?>" class="bread_link">Home</a>
           </li>
-          <li>Contatos</li>
+          <li>Pré-Matricula</li>
         </ul>
       </div>
     </div>
@@ -36,6 +36,26 @@
     <div class="container">
       <!-- Blog post area starts -->
       <div class="row">
+        <div class="col-lg-12">
+          <div class="media blog-media flex-wrap">
+            <div class="media-body page">
+              <div class="entry-content">
+                <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+                  <p>Para enviar sua pré-matricula, preencha <strong>todos</strong> os campos abaixo.</p>
+
+                  <div class="text_input">
+                    <?php the_content(); ?>
+                  </div>
+                <?php endwhile; // end of the loop. ?>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider divider-center divider-gradient divider-gradient-gray w50 mx-auto my-5">
+          <i class="fa fa-circle divider-icon bg-white text-primary"></i>
+        </div>
+
         <div class="col-lg-12">
           <div class="section-title text-center title-ex1">
             <h2 class="title-text">Asa Sul</h2>
@@ -95,19 +115,6 @@
             </div>
 
             <br /><br /><br />
-          </div>
-        </div>
-
-        <div class="col-lg-12">
-          <div class="media blog-media flex-wrap">
-            <div class="media-body page">
-              <div class="entry-content">
-                <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-                  <p>Para enviar sua mensagem, preencha <strong>todos</strong> os campos abaixo.</p>
-                  <?php the_content(); ?>
-                <?php endwhile; // end of the loop. ?>
-              </div>
-            </div>
           </div>
         </div>
       </div>
