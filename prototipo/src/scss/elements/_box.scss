@@ -3,11 +3,15 @@
 .box {
   &-content {
     background-color: $white-color;
-    // border-radius: 10px;
+    border-radius: 10px;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.17);
     position: relative;
     overflow: hidden;
-    height: 500px;
+    //
+
+    @include tablet {
+      height: 500px;
+    }
 
     .bg {
       position: relative;
@@ -21,9 +25,13 @@
         left: 0;
         right: 0;
         min-width: 100%;
-        width: auto;
+        width: 100%;
         min-height: 100%;
         height: auto;
+
+        @include tablet {
+          width: auto;
+        }
       }
     }
 

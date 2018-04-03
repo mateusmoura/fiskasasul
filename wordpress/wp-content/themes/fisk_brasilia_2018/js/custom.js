@@ -19,14 +19,11 @@
         main_area.removeClass('navbar-sticky').appendTo(header_area);
         navigation.animate({'margin-top': original.nav_top}, {duration: 100, queue: false, complete: function(){
           header_area.css('height', 'auto');
-
         }});
       }else if( !main_area.hasClass('navbar-sticky') && $(this).width() > 750 && $(this).scrollTop() > 400 ){
-
         header_area.css('height', header_area.height());
         main_area.css({'opacity': '0'}).addClass('navbar-sticky');
         main_area.appendTo($('body')).animate({'opacity': 1});
-
         navigation.css({'margin-top': '0px'});
       }
     });
@@ -150,12 +147,12 @@
       /* options are 'auto', 'fullwidth' or 'fullscreen' */
       delay: '6000',
       sliderLayout: 'auto',
-      responsiveLevels: [1400, 1366, 992, 480],
-      gridwidth:[1400, 1366, 992, 480],
-      gridheight:[900, 600, 550, 500],
-      stopLoop: 'on',
-      stopAfterLoops: 0,
-      stopAtSlide: 1,
+      responsiveLevels: [800, 700, 600, 480],
+      gridwidth:[800, 700, 600, 480],
+			gridheight:[600, 500, 500, 500],
+      stopLoop: 'off',
+      stopAfterLoops: -1,
+      stopAtSlide: -1,
       
 
       /* basic navigation arrows and bullets */
@@ -190,7 +187,7 @@
   }
   
   $('.kit-testimonial-carousel').slick({
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     dots: true,
     arrows: false,

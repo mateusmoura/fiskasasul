@@ -7,13 +7,13 @@
 		color: $title-color-dk;
 		position: relative;
 		margin: 0;
-		font-size: 24px;
+		font-size: 18px;
 
 		@include tablet {
-			font-size: 28px;
+			font-size: 20px;
 		}
 		@include desktops {
-			font-size: 34px;
+			font-size: 20px;
 		}
 	}
 	&.title-ex1 {

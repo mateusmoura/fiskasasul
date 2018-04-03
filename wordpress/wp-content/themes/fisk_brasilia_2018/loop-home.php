@@ -65,8 +65,8 @@
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-2 col-lg-4">
+            <div class="row gallery">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -85,7 +85,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-2 col-lg-4">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -104,7 +104,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-2 col-lg-4">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -125,7 +125,7 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row gallery">
               <div class="col-md-12">
                 <div class="section-title title-ex1">
                   <h2 class="title-text">Fisk Taguatinga Norte</h2>
@@ -133,8 +133,8 @@
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-2 col-lg-4">
+            <div class="row gallery">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -153,7 +153,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-2 col-lg-4">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -172,7 +172,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-2 col-lg-4">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -201,8 +201,8 @@
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-2 col-lg-4">
+            <div class="row gallery">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -221,7 +221,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-2 col-lg-4">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -240,7 +240,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-2 col-lg-4">
+              <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
@@ -262,8 +262,8 @@
             </div>
           </div>
 
-          <section class="home-about home-video">
-            <div class="col-md-12">
+          <section class="row home-about home-video">
+            <div class="col-6 col-md-12">
               <div class="promo-video bg-image" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/youtube/video1.png');">
                 <div class="video-button video-box">
                   <a href="javascript:void(0)">
@@ -273,10 +273,8 @@
                 </div>
               </div>
             </div>
-          </section>
 
-          <section class="home-about home-video">
-            <div class="col-md-12">
+            <div class="col-6 col-md-12">
               <div class="promo-video bg-image" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/youtube/video2.png');">
                 <div class="video-button video-box">
                   <a href="javascript:void(0)">
@@ -346,7 +344,7 @@
                   ?>
 
 
-                      <div class="col-md-6">
+                      <div class="col-6 col-md-6">
                         <div class="media blog-media">
                           <a href="<?php the_permalink(); ?>">
                             <?php the_post_thumbnail(); ?>

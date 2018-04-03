@@ -55,9 +55,9 @@ body {
     width: 100%;
     border-radius:50%;
     transform: rotate(45deg) translateZ(0);
-    background: #00C9FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0cc652, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0cc652, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: $primary-color;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $primary-color, $primary-color);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $primary-color, $primary-color); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     animation-name: qodefTargetRotate;
     animation-duration: 2s;
@@ -92,9 +92,9 @@ body {
     z-index: 100;
     opacity: 0;
     border-radius: 50%;
-    background: #00C9FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0cc652, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0cc652, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: $primary-color;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $primary-color, $primary-color);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $primary-color, $primary-color); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     animation-name: targetScale;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -378,10 +378,18 @@ body {
       margin-bottom: 0px;
     }
   }
+  
+  .col-6 {
+    @include desktops {
+      margin-bottom: 20px;
+    }
+  }
+
   .promo-video {
     height: 100%;
     // border: 8px solid $white-color;
-    border-radius: 2px;
+    border-radius: 10px;
+
     &.bg-image:before {
       background-color: rgba(0, 0, 0, 0.5);
     }
@@ -785,13 +793,37 @@ body {
   .section-title {
     padding-bottom: 15px;
   }
+
+  .row {
+    .row {
+      .col-6 {
+        display: none;
+
+        @include tablet {
+          display: block;
+        }
+
+        &:nth-child(1) {
+          display: block;
+        }
+
+        &:nth-child(2) {
+          display: block;
+        }
+      }
+    }
+  }
+
   .media {
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 15px;
 
     > a {
-      min-width: 255px;
+      width: 100%;
+      @include tablet {
+        min-width: 255px;
+      }
     }
 
     .media-body {
@@ -875,6 +907,26 @@ body {
   .form-inline {
     .input-group {
       width: 70%;
+    }
+  }
+}
+
+.home {
+  .section-title {
+    h2 {
+
+    }
+  }
+
+  .gallery {
+    .col-6 {
+      &:last-child {
+        display: none;
+
+        @include tablet {
+          display: block;
+        }
+      }
     }
   }
 }

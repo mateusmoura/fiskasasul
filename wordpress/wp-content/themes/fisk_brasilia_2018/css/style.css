@@ -1139,7 +1139,7 @@ hr.hr-inline {
 
 .btn {
   border: none;
-  border-radius: 0px;
+  border-radius: 10px;
   height: 40px;
   padding: 0 20px;
   font-size: 14px;
@@ -2423,13 +2423,14 @@ card
 }
 
 .card .card_img {
+  border-radius: 10px;
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
 .card .card-img {
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .card .card-title {
@@ -4549,6 +4550,7 @@ button.close:hover, button.close.active, button.close:focus {
 }
 
 .video-box a img {
+  border-radius: 10px;
   position: relative;
   -webkit-transition: transform 0.7s ease;
   -moz-transition: transform 0.7s ease;
@@ -5717,7 +5719,7 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
   padding-bottom: 10px;
   position: relative;
   z-index: 2;
-  max-width: 250px;
+  max-width: 150px;
 }
 
 .main-nav .navbar-brand img {
@@ -7070,18 +7072,18 @@ p.devider.devider_primary {
   color: #1d2025;
   position: relative;
   margin: 0;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 @media (min-width: 768px) {
   .section-title h2 {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 992px) {
   .section-title h2 {
-    font-size: 34px;
+    font-size: 20px;
   }
 }
 
@@ -7640,10 +7642,16 @@ p.devider.devider_primary {
 
 .box-content {
   background-color: #ffffff;
+  border-radius: 10px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.17);
   position: relative;
   overflow: hidden;
-  height: 500px;
+}
+
+@media (min-width: 768px) {
+  .box-content {
+    height: 500px;
+  }
 }
 
 .box-content .bg {
@@ -7658,9 +7666,15 @@ p.devider.devider_primary {
   left: 0;
   right: 0;
   min-width: 100%;
-  width: auto;
+  width: 100%;
   min-height: 100%;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .box-content .bg img {
+    width: auto;
+  }
 }
 
 .box-content .padding {
@@ -7747,11 +7761,11 @@ body.loaded {
   width: 100%;
   border-radius: 50%;
   transform: rotate(45deg) translateZ(0);
-  background: #00C9FF;
+  background: #F45C5D;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0cc652, #00C9FF);
+  background: -webkit-linear-gradient(to right, #F45C5D, #F45C5D);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0cc652, #00C9FF);
+  background: linear-gradient(to right, #F45C5D, #F45C5D);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   animation-name: qodefTargetRotate;
   animation-duration: 2s;
@@ -7788,11 +7802,11 @@ body.loaded {
   z-index: 100;
   opacity: 0;
   border-radius: 50%;
-  background: #00C9FF;
+  background: #F45C5D;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0cc652, #00C9FF);
+  background: -webkit-linear-gradient(to right, #F45C5D, #F45C5D);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0cc652, #00C9FF);
+  background: linear-gradient(to right, #F45C5D, #F45C5D);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   animation-name: targetScale;
   animation-duration: 2s;
@@ -8115,9 +8129,15 @@ body.loaded {
   }
 }
 
+@media (min-width: 992px) {
+  .home-about .col-6 {
+    margin-bottom: 20px;
+  }
+}
+
 .home-about .promo-video {
   height: 100%;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 .home-about .promo-video.bg-image:before {
@@ -8648,6 +8668,24 @@ body.loaded {
   padding-bottom: 15px;
 }
 
+.home-blog .row .row .col-6 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .home-blog .row .row .col-6 {
+    display: block;
+  }
+}
+
+.home-blog .row .row .col-6:nth-child(1) {
+  display: block;
+}
+
+.home-blog .row .row .col-6:nth-child(2) {
+  display: block;
+}
+
 .home-blog .media {
   display: flex;
   flex-wrap: wrap;
@@ -8655,7 +8693,13 @@ body.loaded {
 }
 
 .home-blog .media > a {
-  min-width: 255px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .home-blog .media > a {
+    min-width: 255px;
+  }
 }
 
 .home-blog .media .media-body {
@@ -8762,6 +8806,16 @@ body.loaded {
 
 .newsletter .form-inline .input-group {
   width: 70%;
+}
+
+.home .gallery .col-6:last-child {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .home .gallery .col-6:last-child {
+    display: block;
+  }
 }
 
 footer {
