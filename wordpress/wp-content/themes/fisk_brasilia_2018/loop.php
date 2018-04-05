@@ -17,7 +17,7 @@
 
 <div>
   <!-- BREDCRUMB -->
-  <div class="bredcrumb bg-image text-center" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/bredcrumb.jpg');">
+  <div class="bredcrumb bg-image text-center" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/headers/banner-blog.jpg');">
     <div class="row bredcrumb-inner">
       <div class="col-sm-12  align-self-center">
         <h2>Blog - <?php $cat = single_cat_title( '', false ); 

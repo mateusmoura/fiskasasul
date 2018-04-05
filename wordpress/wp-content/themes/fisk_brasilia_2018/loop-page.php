@@ -18,7 +18,7 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <div>
     <!-- BREDCRUMB -->
-    <div class="bredcrumb bg-image text-center" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/bredcrumb.jpg');">
+    <div class="bredcrumb bg-image text-center" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/headers/banner-pages.jpg');">
       <div class="row bredcrumb-inner">
         <div class="col-sm-12  align-self-center">
           <h2><?php the_title(); ?></h2>
