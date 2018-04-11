@@ -156,8 +156,8 @@
             <a href="javascript:void(0)" data-toggle="modal" data-target="#searchModal" class="btn-search nav-link">
               <i class="fa fa-search"></i>
             </a>
-            <form class="search_form">
-              <input type="text" name="search" placeholder="Search...">
+            <form class="search_form" action="<?php bloginfo('home'); ?>/" method="get">
+              <input type="text" name="s" id="s" placeholder="Buscar...">
               <button class="no-bg btn-search" type="submit">
                 <i class="fa fa-search"></i>
               </button>

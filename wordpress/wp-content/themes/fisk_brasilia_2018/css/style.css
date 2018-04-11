@@ -5859,6 +5859,14 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
   }
 }
 
+.main-nav .nav-item.show .dropdown-menu {
+  display: block;
+}
+
+.main-nav .nav-item.show .dropdown-menu a:hover {
+  background-color: #F45C5D;
+}
+
 .main-nav .nav-item a {
   text-transform: capitalize;
   font-style: normal;
@@ -6211,6 +6219,15 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
 .menu-login {
   position: relative;
   margin-right: 10px;
+  margin-left: 14px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .menu-login {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
 }
 
 .search_hook {
