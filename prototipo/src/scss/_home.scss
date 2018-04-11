@@ -930,3 +930,32 @@ body {
     }
   }
 }
+
+.home-teste-ingles {
+  margin-bottom: 40px;
+
+  .info {
+    &:hover, &:focus {
+      .icon {
+        color: #fff !important;
+      }
+    }
+  }
+
+  .icon {
+    font-size: 35px;
+  }
+
+  .info-content{
+    margin: 0 auto;
+    width: 90%;
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    @include tablet {
+      width: 70%;
+    }
+  }
+}

@@ -8818,6 +8818,33 @@ body.loaded {
   }
 }
 
+.home-teste-ingles {
+  margin-bottom: 40px;
+}
+
+.home-teste-ingles .info:hover .icon, .home-teste-ingles .info:focus .icon {
+  color: #fff !important;
+}
+
+.home-teste-ingles .icon {
+  font-size: 35px;
+}
+
+.home-teste-ingles .info-content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.home-teste-ingles .info-content p {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .home-teste-ingles .info-content {
+    width: 70%;
+  }
+}
+
 footer {
   padding-top: 50px;
 }
