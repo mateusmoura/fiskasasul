@@ -334,7 +334,7 @@
                 <!-- section title ends -->
                 <div class="row ">
                   <?php
-                    $args = array( 'numberposts' => 6 );
+                    $args = array( 'numberposts' => 4 );
                     $lastposts = get_posts( $args );
                     foreach($lastposts as $post) : setup_postdata($post);
                       $postID = get_the_ID();

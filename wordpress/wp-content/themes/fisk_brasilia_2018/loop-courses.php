@@ -242,6 +242,22 @@
           </div>
         </div>
       </div>
+
+      <section class="bg-sand hero-block home-about" style="background: url('<?php bloginfo( 'template_url' ); ?>/img/cursos/banner-footer-certifications.jpg') no-repeat bottom right;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ">
+              <div class="section-title title-ex1">
+                <h2 class="title-text">Qual é o seu nível de conhecimento?</h2>
+              </div>
+              <p class="description">
+              Realize nosso teste online e descubra o curso ideal para você.
+              </p>
+              <a href="http://www.fisk.com.br/teste-classificacao" target="_blank" class="btn btn-default btn-primary">Faça o teste agora</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   </div>
 <?php endwhile; // end of the loop. ?>
