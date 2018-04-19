@@ -262,6 +262,27 @@
             </div>
           </div>
 
+          <section class="row home-teste-ingles">
+            <div class="col-12">
+              <div class="info text-center">
+                <div class="icon icon-circle">
+                  <i class="fas fa-clipboard-list"></i>
+                </div>
+
+                <div class="info-content">
+                  <h5 class="info-title">Teste de classificação</h5>
+                  <div class="description">
+                    <p class="description">Que tal saber como está o seu conhecimento de inglês ou espanhol?</p>
+
+                    <a href="http://www.fisk.com.br/teste-classificacao" target="_blank" title="">
+                      <button class="btn btn-primary">Conheça</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section class="row home-about home-video">
             <div class="col-6 col-md-12">
               <div class="promo-video bg-image" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/youtube/video1.png');">

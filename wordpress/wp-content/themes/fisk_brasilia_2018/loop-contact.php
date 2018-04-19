@@ -17,7 +17,7 @@
 
 <div>
   <!-- BREDCRUMB -->
-  <div class="bredcrumb bg-image text-center" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/bredcrumb.jpg');">
+  <div class="bredcrumb bg-image text-center" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/headers/banner-contato.jpg');">
     <div class="row bredcrumb-inner">
       <div class="col-sm-12  align-self-center">
         <h2><?php the_title(); ?></h2>
@@ -68,11 +68,11 @@
               <br /><br />
             </div>
 
-            <div class="contact-google">
+            <!-- <div class="contact-google">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5342.891300909032!2d-47.926070284331566!3d-15.831078028077702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2555ea80001d%3A0x1932d20900ee462a!2sFisk-Asa+Sul!5e1!3m2!1spt-BR!2sbr!4v1521153473415" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
               <p><a id="mapa_asasul" class="ampliar_mapa" href="https://www.google.com.br/maps/place/Fisk-Asa+Sul/@-15.831078,-47.9260703,1227m/data=!3m2!1e3!4b1!4m5!3m4!1s0x935a2555ea80001d:0x1932d20900ee462a!8m2!3d-15.8310832!4d-47.9238816?hl=pt-BR">Ampliar mapa da FISK Asa Sul</a></p>
             </div>
-            <br /><br /><br />
+            <br /><br /><br /> -->
           </div>
         </div>
 
@@ -88,12 +88,12 @@
               <br /><br />
             </div>
 
-            <div class="contact-google">
+            <!-- <div class="contact-google">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85489.21957517684!2d-48.030822177046474!3d-15.824083013238164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a333b021659e7%3A0xae02f16ca7871444!2sFisk+Ingl%C3%AAs+e+Espanhol!5e1!3m2!1spt-BR!2sbr!4v1521153663128" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
               <p><a id="mapa_tagua" class="ampliar_mapa" href="https://goo.gl/maps/ZxvJnw8Q1vo" target="_blank">Ampliar mapa da FISK Taguatinga Norte</a></p>
             </div>
 
-            <br /><br /><br />
+            <br /><br /><br /> -->
           </div>
         </div>
 
@@ -109,12 +109,12 @@
               <br /><br />
             </div>
 
-            <div class="contact-google">
+            <!-- <div class="contact-google">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42761.19482586792!2d-47.899662000000006!3d-15.745462000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1534e15f9649378c!2sFisk+Centro+de+Ensino!5e1!3m2!1spt-BR!2sbr!4v1521153849192" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
               <p><a id="mapa_asanorte" class="ampliar_mapa" href="https://goo.gl/maps/ydPKbH4inDJ2" target="_blank">Ampliar mapa da FISK Asa Norte</a></p>
             </div>
 
-            <br /><br /><br />
+            <br /><br /><br /> -->
           </div>
         </div>
       </div>

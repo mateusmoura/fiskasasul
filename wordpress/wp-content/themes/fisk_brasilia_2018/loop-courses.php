@@ -17,8 +17,40 @@
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <div>
+    <?php
+      $idP = get_the_ID();
+      $curso = "";
+      if( $idP <= 336 && $idP >= 328 || $idP == 320 )
+        $curso = "informatica";
+      else if( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 )
+        $curso = "espanhol";
+      else if( $idP < 315 && $idP > 279 )
+        $curso = "ingles"; 
+      else if( $idP == 318 )
+        $curso = "portugues";
+      else if ($idP == 1070)
+        $cursos = "frances";
+    ?>
+
     <!-- BREDCRUMB -->
-    <div class="bredcrumb bg-image text-center" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/bredcrumb.jpg');">
+    <div class="bredcrumb bg-image text-center"
+      style="background-image: url('<?php bloginfo( 'template_url' ); ?>
+        <?php 
+          if ($curso == 'ingles') {
+            echo '/img/headers/full-banner-ingles.jpg';
+          } else if ($curso == 'espanhol') {
+            echo '/img/headers/full-banner-espanhol.jpg';
+          } else if ($curso == 'portugues') {
+            echo '/img/headers/full-banner-portugues.jpg';
+          } else if ($curso == 'informatica') {
+            echo '/img/headers/full-banner-informatica.jpg';
+          } else if ($curso == 'frances') {
+            echo '/img/headers/banner-cursos.jpg';
+          } else {
+            echo '/img/headers/banner-cursos.jpg';
+          }
+        ?>');"
+    >
       <div class="row bredcrumb-inner">
         <div class="col-sm-12  align-self-center">
           <h2><?php the_title(); ?></h2>
@@ -36,21 +68,6 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
-             <?php
-              $idP = get_the_ID();
-              $curso = "";
-              if( $idP <= 336 && $idP >= 328 || $idP == 320 )
-                $curso = "informatica";
-              else if( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 )
-                $curso = "espanhol";
-              else if( $idP < 315 && $idP > 279 )
-                $curso = "ingles"; 
-              else if( $idP == 318 )
-                $curso = "portugues";
-              else if ($idP == 1070)
-                $cursos = "frances";
-            ?>
-
             <!-- section title -->
             <div class="row justify-content-md-center curso-<?php echo $curso; ?>">
               <div class="col-xl-12 col-lg-12 col-md-12">
@@ -109,8 +126,7 @@
                   </div>
                   <!-- single info block ends -->
                 </div>
-                <div class="col-md-12 col-lg-6">
-                  <!-- single info block -->
+                <!-- <div class="col-md-12 col-lg-6">
                   <div class="info text-center info-boxed curso-frances">
                     <div class="icon icon-circle">
                       <i class="fas fa-graduation-cap" aria-hidden="true"></i>
@@ -129,8 +145,7 @@
                       </a>
                     </div>
                   </div>
-                  <!-- single info block ends -->
-                </div>
+                </div> -->
                 <div class="col-md-12 col-lg-6">
                   <!-- single info block -->
                   <div class="info text-center info-boxed curso-portugues">

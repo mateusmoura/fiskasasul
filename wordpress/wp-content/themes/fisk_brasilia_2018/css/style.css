@@ -5855,6 +5855,14 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
   }
 }
 
+.main-nav .nav-item.show .dropdown-menu {
+  display: block;
+}
+
+.main-nav .nav-item.show .dropdown-menu a:hover {
+  background-color: #F45C5D;
+}
+
 .main-nav .nav-item a {
   text-transform: capitalize;
   font-style: normal;
@@ -6207,6 +6215,15 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
 .menu-login {
   position: relative;
   margin-right: 10px;
+  margin-left: 14px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .menu-login {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
 }
 
 .search_hook {
@@ -8809,6 +8826,33 @@ body.loaded {
 @media (min-width: 768px) {
   .home .gallery .col-6:last-child {
     display: block;
+  }
+}
+
+.home-teste-ingles {
+  margin-bottom: 40px;
+}
+
+.home-teste-ingles .info:hover .icon, .home-teste-ingles .info:focus .icon {
+  color: #fff !important;
+}
+
+.home-teste-ingles .icon {
+  font-size: 35px;
+}
+
+.home-teste-ingles .info-content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.home-teste-ingles .info-content p {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .home-teste-ingles .info-content {
+    width: 70%;
   }
 }
 
