@@ -40,7 +40,7 @@
 // Image Background
 .bg-image-holder, .bg-image {
 	background-size: cover !important;
-	background-position: 50% 0 !important;
+	background-position: 50% center !important;
 	@include transition(all 0.3s linear);
 	background: $sand;
 	position: relative;

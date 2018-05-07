@@ -714,9 +714,7 @@ header {
 
 .bg-dark {
   a.nav-link {
-    @include tablet {
-      color: $white-color!important;
-    }
+    color: $white-color !important;
   }
 }
 

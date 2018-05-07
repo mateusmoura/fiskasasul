@@ -6,7 +6,7 @@ footer{
 }
 /*======== Footer Classic version ========*/
 .footer {
-  p {
+  p, .address a {
     color: tint($white-color, 50%);
         font-size: 14px;
         line-height: 24px;
