@@ -1,0 +1,5 @@
+/* FORMULARIO
+--------------------------------------------- */
+form label { display: block; font-weight: bold; margin: 0 0 5px; }
+form input { width: 350px; padding: 4px; border: 1px solid #CCC; }
+form button { width: 128px; height: 48px; padding: 12px 0; background: url('../img/botao_branco.jpg') no-repeat 0 0; border: 0; text-align: center; font-weight: bold; }

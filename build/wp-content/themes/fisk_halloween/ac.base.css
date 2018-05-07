@@ -1,0 +1,25 @@
+@charset "utf-8";
+/*
+BASE CSS RESET
+Copyright (c) 2008 Aquarela Criativa. All rights reserved.
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; color: inherit; }
+body { line-height:1em; font-size:62.5%; background:no-repeat left top; }
+table { border-collapse:collapse; border-spacing:0; }
+caption, th, td { text-align:left; font-weight:normal; }
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+address,caption,cite,code,dfn,var,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,td,th,em,strong,del,code,kbd,span,legend { padding: 0; font-size:12px; line-height:18px; font-family:Arial,Verdana,sans-serif; color:#000; }
+h1,h2,h3,h4,h5,h6,p { margin: 0 0 1em; }
+ul,ol { margin: 0 0 1em 1em; }
+code,kbd,var { font-family:"Monaco","Courier New", Courier, monospace !important; }
+strong,em { font-weight:bold; font-size: 1em; color: inherit; }
+em { font-style:italic; }
+sup,sub { line-height: 0; }
+del,strike { text-decoration:line-through; }
+abbr,acronym { }
+hr { border:none; color: #fff; height:0; line-height:0; margin:0; }
+select, button { cursor:pointer; }
+.indent { text-indent: -9999em; overflow: hidden; display: block; }
+.hide { display: none; }
+.show { display: block; }

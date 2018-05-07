@@ -1,0 +1,66 @@
+
+
+.box {
+  &-content {
+    background-color: $white-color;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.17);
+    position: relative;
+    overflow: hidden;
+    //
+
+    @include tablet {
+      height: 500px;
+    }
+
+    .bg {
+      position: relative;
+      z-index: 1;
+
+      img {
+        // border-radius: 10px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        min-width: 100%;
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+
+        @include tablet {
+          width: auto;
+        }
+      }
+    }
+
+    .padding {
+      padding: 50px;
+    }
+
+    .title, .content, .link {
+      position: relative;
+      z-index: 2;
+    }
+
+    .title {
+      margin-bottom: 20px;
+
+      h2, h3 {
+        color: $white-color;
+        font-size: 44px;
+        font-weight: bold;
+      }
+    }
+
+    .content {
+      color: $white-color;
+      margin-bottom: 30px;
+    }
+  }
+
+  .title {
+    margin: 0;
+  }
+}

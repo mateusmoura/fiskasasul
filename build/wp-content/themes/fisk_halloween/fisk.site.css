@@ -1,0 +1,461 @@
+/* GERAL
+--------------------------------------------- */
+body { background:#0D1330 url(images/branco/body.jpg) center bottom no-repeat fixed;}
+a:hover { text-decoration: underline !important; }
+a, a:visited { color: #b82932; }
+
+
+
+/* ENVELOPE
+--------------------------------------------- */
+/*div#grafismos { width: 100%; height: 500px; background-color: #fff; }*/
+div#wrapper { width: 940px; margin: 0 auto; }
+div.construtor { width: 940px; margin: 0 auto; position: relative; }
+
+
+
+/* MENU
+--------------------------------------------- */
+div#header { position: relative; width: 940px; z-index: 2; margin-bottom:15px; }
+div#header h1 { width:205px; height: 167px; background: url("images/branco/logo_new.png") no-repeat 0 0; margin: 0; }
+div#header h1 a { width:205px; height: 167px; }
+
+/*div#header #access ul { position: absolute; left: 200px; top: 40px; z-index: 100000; width: 710px; height: 64px; background: url('images/branco/menu.jpg') no-repeat left top; margin: 0; }
+div#header #access ul li { float: left; display: block; }
+div#header #access ul li a { display: block; height: 44px; margin-top: 16px; text-indent: -9999em; overflow: hidden; }
+
+div#header #access ul li ul { display: none; background-color: #fff; border: 1px solid #DDD; z-index: 100001; margin-left: 3em; }
+div#header #access ul li ul li { float: none; margin: 0; border-top: 1px solid #DDD; }
+div#header #access ul li ul li a { padding: 5px; display: block; text-decoration: none; font-size: 14px; color: #323232; }*/
+div#header #access ul li ul li a:hover
+, #access ul li ul li.current_page_item a
+, #access ul li ul li.current_menu_item a { background-color: #323232; color: #fff; text-decoration: none !important; }
+
+li#mn_queroserfisk
+, li#mn_soufisk
+, li#mn_servicos
+, li#mn_contato {}
+
+li#menu-item-7 a.expand { width: 200px; }
+li#mn_soufisk a.expand { width: 143px; }
+li#mn_servicos a.expand { width: 188px; }
+li#mn_contato a { width: 157px; }
+
+div#menu li#mn_queroserfisk ul { width: 200px; }
+div#menu li#mn_soufisk ul { width: 180px; }
+div#menu li#mn_servicos ul { width: 220px; }
+
+div#header p#link_fisknet { position: absolute; right: 140px; top: 10px; }
+div#header p#link_fisknet a { color: #141414; text-decoration: none; font-weight: bold; }
+
+a#bt_badge { width: 150px; height: 100px; position: absolute; top: 0; right: 0; background: url('images/badges/test-drive.gif') no-repeat 0 0; display: block; text-indent: -9999em; overflow: hidden; z-index: 2; }
+
+
+
+/* RODAPE
+--------------------------------------------- */
+div#rodape { width: 100%; height: 250px; margin-top: 140px; }
+div#rodape div.construtor { height: 250px; }
+div#auxiliar_rodape ul { width: 160px; height: 170px; float: left; margin: 70px 0 0 20px; }
+div#auxiliar_rodape ul li { list-style-type: none; font-size: 14px; }
+div#auxiliar_rodape ul li a { text-decoration: none; color: #ffffff; }
+div#auxiliar_rodape ul li a:hover { text-decoration: underline; }
+
+ul#lista_institucional { width: 360px; position: absolute; bottom: 4em; right: 1em; }
+div.developer{
+	position:absolute;
+	bottom:0;
+	right:148px;
+}
+div.developer p
+, div.developer a{
+	color:#ffffff;
+	font-size:12px;
+	font-style:italic;
+}
+ul#lista_institucional li { width: 120px; display: block; float: left; list-style-type: none; text-align: center; padding: 0; }
+ul#lista_institucional li a { color: #ffffff; text-decoration: none; }
+
+div#newsletter { width: 380px; height: 67px; padding: 257px 0 0 90px; background: url('images/branco/predios_pe.jpg') no-repeat 0 0; position: absolute; right: 0; top: -187px; }
+div#newsletter p { color: #FFF; font-size: 14px; }
+div#newsletterFormDiv{position:relative;}
+div#newsletter label { display: block; height: 40px; color: #FFF; font-size: 14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; }
+div#newsletter input { border: 6px solid #959899; border-bottom:5px solid #959899; width:260px; color: #222; font-size: 14px; padding: 4px; float: left; margin-top: 5px; margin-right: 4px; font-family:Arial, Helvetica, sans-serif; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
+div#newsletter input.submit { width: 103px; height: 35px; border: none; background: url(images/home/bt_assinar.png) no-repeat;   float: left; cursor:pointer; overflow:hidden; text-indent:-999em; position:absolute; top:2px; right:0px; }
+
+div#newsletter label.error { position: absolute; left: 90px; top: 330px; color: #d00 !important; font-weight: normal !important; }
+body#pagina_home_2 div#newsletter label.error { left: 20px !important; top: 160px !important; }
+
+
+
+/* CONTEUDO
+--------------------------------------------- */
+
+div#conteudo { position: relative; z-index: 1; margin: 0; padding-top: 32px;}
+div#conteudo_pagina {
+	background-color: #FFFFFF;
+    border: 6px solid #959899;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 !important;
+    min-height: 999px;
+    padding: 30px 15px 20px;
+    position: relative;
+    width: 527px;}
+
+h1#pagina_titulo { background: no-repeat 0 0; width: 504px; height: 62px; margin: 0 0 .5em; text-indent: -9999em; overflow: hidden; background: url('images/branco/pagina_titulo_h1.jpg') no-repeat left bottom; }
+
+div#conteudo h2
+, div#conteudo h3 { font-size: 24px; line-height: 36px; margin: 0 0 1em; font-weight: bold; }
+div#conteudo p { font-size: 14px; line-height: 18px; margin: 0 0 14px; text-align: justify; }
+div#conteudo p * { line-height: 1em; }
+
+div#conteudo p#pagina_resumo { font-style: italic; margin: -0.5em 0 2em; }
+
+div#conteudo_pagina a:visited, div#conteudo_pagina a { color: #b82932; font-weight: bold; display: inline; }
+
+div#conteudo_pagina table { margin: 0 0 2em; }
+div#conteudo_pagina table tr td
+, div#conteudo_pagina table tr th { font-size: 14px; padding: 5px; }
+
+div#conteudo_pagina img { max-width: 504px; }
+
+div#conteudo_pagina ul, div#conteudo_pagina ol { margin: 0 0 18px; }
+div#conteudo_pagina ul li, div#conteudo_pagina ol li { font-size: 14px !important; line-height: 18px !important; margin: 0 0 0 18px !important; }
+
+p span { font-size: 1em !important; color: inherit !important; }
+
+div#conteudo_pagina table td { padding: 0 9px; }
+
+div#conteudo_pagina em { font-weight: normal !important; }
+
+p#bt_voltar { margin: 0 0 1em !important; line-height: 1em !important; text-align: right; font-size: 12px !important; position: absolute; right: 1em; top: 1em; }
+
+ul#fotos_unidades { margin: 0 !important; }
+div#conteudo ul#fotos_unidades li { height: 110px; list-style-type: none; float: left; margin: 0 10px 10px 0 !important; padding: 0 0 16px !important; background: url('images/unidades/sombra-unidades.jpg') no-repeat center bottom; }
+div#conteudo ul#fotos_unidades li img { margin: 0 !important; }
+
+
+
+/* lista_niveis_do_curso
+--------------------------------------------- */
+h3#lista_niveis_titulo { margin: 0 !important; font-size: 18px !important; }
+div#conteudo_pagina ul.menuCourses { margin: 0 0 2em !important; width: 504px; }
+div#conteudo_pagina ul.menuCourses li{ list-style-type: none !important; margin: 0 10px 10px 0 !important; padding: 5px 10px !important; cursor: pointer; border-left: 1px solid #999; }
+
+
+/* CONTEUDO_WIDE
+--------------------------------------------- */
+/*body#pagina_contato_26 div#conteudo
+, body#pagina_privacidade_27 div#conteudo
+, body#pagina_termos_28 div#conteudo
+, body#pagina_soufisk_50 div#conteudo
+, body#pagina_contato_29 div#conteudo
+, body#pagina_usuarios_1 div#conteudo
+, body.page-id-68 div#conteudo 
+, body.page-id-229 div#conteudo 
+, body.page-id-231 div#conteudo 
+, body.page-id-39 div#conteudo { background: url('images/branco/conteudo_wide_bg.jpg') no-repeat 0 0; }*/
+body#pagina_contato_26 div#conteudo_pagina
+, body#pagina_privacidade_27 div#conteudo_pagina
+, body#pagina_termos_28 div#conteudo_pagina
+, body#pagina_soufisk_50 div#conteudo_pagina
+, body#pagina_contato_29 div#conteudo_pagina
+, body#pagina_usuarios_1 div#conteudo_pagina
+, body.page-id-68 div#conteudo_pagina 
+, body.page-id-229 div#conteudo_pagina 
+, body.page-id-231 div#conteudo_pagina
+, body.page-id-39 div#conteudo_pagina { width: 860px; }
+
+
+
+/* LISTAGEM #materias_blog
+--------------------------------------------- */
+div#conteudo_pagina div#materias_blog a { text-decoration: none; }
+div#conteudo_pagina ul#lista_materias { margin: 0 0 1em !important; }
+div#conteudo_pagina ul#lista_materias li { margin: 0 0 2em !important; padding: 1em 0 !important; border-bottom: 1px solid #EEE; list-style-type: none; position: relative; }
+div#conteudo_pagina ul#lista_materias li h2 { font-size: 18px; line-height: 1em; }
+div#conteudo_pagina p.metadados { font-size: 11px; line-height: 1em !important; font-style: italic; margin: 0 0 5px !important; color: #777; }
+div#conteudo_pagina ul#lista_materias li p a { font-weight: normal !important; }
+div#conteudo_pagina p.link_comentarios { line-height: 1em; font-size: 12px; }
+
+
+/* PAGINACAO
+--------------------------------------------- */
+div#conteudo ul.paginador { margin-left: 0 !important; }
+ul.paginador li { display: inline-block; width: 2em; list-style-type: none; margin: 0 4px; }
+ul.paginador li * { display: inline-block; text-align: center; }
+li.pag_pri
+, li.pag_ant
+, li.pag_prox
+, li.pag_ult { width: 6em !important; }
+ul.paginador li a:hover { background-color: #EDEDED; }
+
+
+
+/* COMENTARIOS
+--------------------------------------------- */
+div#comentarios { border-top: 1px solid #b82932; margin: 3em 0 0; padding: 1em 0; }
+div#comentarios h3 { margin: 0 !important; }
+div#comentarios ul#lista_comentarios { margin: 0 0 1em !important; }
+div#comentarios ul#lista_comentarios li { margin: 0 0 2em !important; padding: 1em 0 !important; border-bottom: 1px solid #EEE; list-style-type: none; position: relative; }
+div#comentarios ul#lista_comentarios li h2 { font-size: 18px; line-height: 1em; }
+div#comentarios ul#lista_comentarios li p a { font-weight: normal !important; }
+
+div#comentarios_form form label { display: block; font-weight: bold; margin: 0 0 5px; }
+div#comentarios_form input, div#comentarios_form textarea { width: 350px; padding: 4px; border: 1px solid #CCC; }
+div#comentarios_form textarea { height: 200px; }
+div#comentarios_form button { width: 128px; height: 48px; padding: 12px 0; display: block; background: url('images/botao_branco.jpg') no-repeat 0 0; border: 0; text-align: center; font-weight: bold; }
+
+
+
+/* CURSOS .bloco_curso
+--------------------------------------------- */
+div.bloco_curso { width: 498px; padding: 0 4px 2em 0; border: 1px solid #EEE; margin: 0 0 1em; height: 70px; overflow: hidden; }
+div.bloco_curso h2 { display: none; }
+div.bloco_curso img { float: left; margin: 0 5px 0 0 !important; }
+div.bloco_curso p { margin: .5em 0 !important; }
+#conteudo ul#menu-cursos_ingles li{
+	background-color: #aacce7 !important;
+	border-color: #0060af !important;
+}
+#conteudo #menu-cursos_espanhol li{
+	background-color: #f2e8b0 !important;
+	border-color: #f99d1c !important;
+}
+#conteudo #menu-cursos_informatica li{
+	background-color: #b5ecea !important;
+	border-color: #00b2ad !important;
+}
+#conteudo ul#menu-cursos_ingles li a{
+	color:#0060AF;
+}
+#conteudo ul#menu-cursos_espanhol li a{
+	color:#F99D1C;
+}
+#conteudo ul#menu-cursos_informatica li a{
+	color:#00A29D;
+}
+#conteudo ul.menuCourses li span{
+	display:block;
+}
+div#bloco_ingles, body#pagina_queroserfisk_7 ul#lista_niveis_do_curso li, body.pagina_queroserfisk_ingles ul#lista_niveis_do_curso li { background-color: #aacce7 !important; border-color: #0060af !important; }
+div#bloco_espanhol, body#pagina_queroserfisk_8 ul#lista_niveis_do_curso li, body.pagina_queroserfisk_espanhol ul#lista_niveis_do_curso li { background-color: #f2e8b0 !important; border-color: #f99d1c !important; }
+div#bloco_portugues, body#pagina_queroserfisk_9 ul#lista_niveis_do_curso li, body.pagina_queroserfisk_portugues ul#lista_niveis_do_curso li { background-color: #90dab1 !important; border-color: #00ae4d !important; }
+div#bloco_informatica, body#pagina_queroserfisk_10 ul#lista_niveis_do_curso li, body.pagina_queroserfisk_informatica ul#lista_niveis_do_curso li { background-color: #b5ecea !important; border-color: #00b2ad !important; }
+
+div#bloco_ingles a, div#bloco_ingles h2 { color: #0060af !important; }
+div#bloco_espanhol a, div#bloco_espanhol h2 { color: #f09000 !important; }
+div#bloco_portugues a, div#bloco_portugues h2 { color: #00ae4d !important; }
+div#bloco_informatica a, div#bloco_informatica h2 { color: #00a29d !important; }
+
+
+
+/* NOTIFICADORES
+--------------------------------------------- */
+.sucesso, .success { color: #728a12; border: 1px solid #485a01; }
+.alerta, .alert { color: #dd6516; border: 1px solid #dd6516; }
+.erro, .error { color: #db2323; border: 1px solid #D00; }
+.sucesso, .success, .alerta, .alert, .erro, .error { font-weight: bold; padding: 5px; font-size: 16px; }
+label.error, label.erro { border: 0 !important; }
+
+
+
+/* PAGINA_TITULO H1
+--------------------------------------------- */
+body #conteudo h1.title-9 { background-image: url('images/branco/titulos/qs-queroser.gif'); }
+body #conteudo h1.title-5 { background-image: url('images/branco/titulos/qs-sobre.gif'); }
+body #conteudo h1.title-11 { background-image: url('images/branco/titulos/qs-metodo.gif'); }
+body #conteudo h1.title-17 { background-image: url('images/branco/titulos/qs-cursos.gif'); }
+body#pagina_queroserfisk_7 h1#pagina_titulo
+, body #conteudo h1.title-311
+, body #conteudo h1.title-280
+, body #conteudo h1.title-282
+, body #conteudo h1.title-285
+, body #conteudo h1.title-287
+, body #conteudo h1.title-289
+, body #conteudo h1.title-291
+, body #conteudo h1.title-293
+, body #conteudo h1.title-295
+, body #conteudo h1.title-298 
+, body #conteudo h1.title-860 { background-image: url('images/branco/titulos/qs-cursos-ingles.gif'); }
+body#pagina_queroserfisk_8 h1#pagina_titulo
+, body #conteudo h1.title-316
+, body #conteudo h1.title-322
+, body #conteudo h1.title-324 { background-image: url('images/branco/titulos/qs-cursos-espanhol.gif'); }
+body#pagina_queroserfisk_9 h1#pagina_titulo
+, body #conteudo h1.title-318 { background-image: url('images/branco/titulos/qs-cursos-portugues.gif'); }
+body#pagina_queroserfisk_10 h1#pagina_titulo
+, body #conteudo h1.title-320
+, body #conteudo h1.title-328
+, body #conteudo h1.title-332
+, body #conteudo h1.title-336
+, body #conteudo h1.title-334
+, body #conteudo h1.title-330 { background-image: url('images/branco/titulos/qs-cursos-informatica.gif'); }
+body #conteudo h1.title-15 { background-image: url('images/branco/titulos/qs-ritmo.gif'); }
+body #conteudo h1.title-19 { background-image: url('images/branco/titulos/qs-asasul.gif'); }
+body #conteudo h1.title-21 { background-image: url('images/branco/titulos/qs-tagua.gif'); }
+body#pagina_queroserfisk_13 h1#pagina_titulo { background-image: url('images/branco/titulos/qs-teste.gif'); }
+body #conteudo h1.title-23 { background-image: url('images/branco/titulos/qs-trabalhe.gif'); }
+body #conteudo h1.title-25 { background-image: url('images/branco/titulos/qs-promocoes.gif'); }
+
+body#pagina_soufisk_15 h1#pagina_titulo { background-image: url('images/branco/titulos/sf-soufisk.gif'); }
+body #conteudo h1.title-35 { background-image: url('images/branco/titulos/sf-fisknet.gif'); }
+body #conteudo h1.title-37 { background-image: url('images/branco/titulos/sf-fiskshop.gif'); }
+body #conteudo h1.title-41 { background-image: url('images/branco/titulos/sf-alunos.gif'); }
+body #conteudo h1.title-43 { background-image: url('images/branco/titulos/sf-dicas.gif'); }
+body #conteudo h1.title-45 { background-image: url('images/branco/titulos/sf-helpout.gif'); }
+body#pagina_soufisk_48 h1#pagina_titulo { background-image: url('images/branco/titulos/sf-campanhas.gif'); }
+body #conteudo h1.title-47 { background-image: url('images/branco/titulos/sf-eventos.gif'); }
+body #conteudo h1.title-39 { background-image: url('images/branco/titulos/sf-calendario-letivo.gif'); }
+
+body #conteudo h1.title-49 { background-image: url('images/branco/titulos/bl-blog.gif'); }
+body.category-eventos #conteudo h1.title-49{ background-image: url('images/branco/titulos/sf-eventos.gif') !important; }
+body.category-trabalhos-de-alunos #conteudo h1.title-49{ background-image: url('images/branco/titulos/sf-alunos.gif') !important; }
+
+body#pagina_servicos_22 h1#pagina_titulo { background-image: url('images/branco/titulos/sr-servicos.gif'); }
+body #conteudo h1.title-62 { background-image: url('images/branco/titulos/sr-proficiency.gif'); }
+body #conteudo h1.title-64 { background-image: url('images/branco/titulos/sr-toefl.gif'); }
+body #conteudo h1.title-66 { background-image: url('images/branco/titulos/sr-intercambio.gif'); }
+
+body #conteudo h1.title-68 { background-image: url('images/branco/titulos/in-contato.gif'); }
+body #conteudo h1.title-229 { background-image: url('images/branco/titulos/in-politica.gif'); }
+body #conteudo h1.title-231{ background-image: url('images/branco/titulos/in-uso.gif'); }
+body#pagina_contato_29 h1#pagina_titulo { background-image: url('images/branco/titulos/in-obrigado.gif'); }
+
+body#pagina_usuarios_1 h1#pagina_titulo { background-image: url('images/branco/titulos/in-usuarios.gif'); }
+
+
+
+/* NAVEGADOR
+--------------------------------------------- */
+div#navegador {
+	background-color: #FFFFFF;
+    border: 6px solid #959899;
+    border-radius: 5px 5px 5px 5px;
+    height: 39px;
+    position: relative;
+    top: 10px;
+    width: 558px; }
+div#navegador p { position: absolute; left: 20px; top: 12px; font-size: 12px; }
+
+
+
+/* FORM: CONTATO
+--------------------------------------------- */
+form.contato label, form.trabalhe-conosco label, form.help-out-online label { display: block; font-weight: bold; margin: 0 0 5px; text-align:left; width:auto; }
+form.contato input
+, form.contato textarea
+, form.trabalhe-conosco input
+, form.trabalhe-conosco textarea 
+, form.help-out-online input
+, form.help-out-online textarea{ border: 1px solid #aaa; padding: 4px; width: 350px; background:none; }
+form.contato select
+, form.trabalhe-conosco select
+, form.help-out-online select{
+	background:none;
+}
+form.contato textarea { height: 300px; }
+form.contato p input#sendbutton
+, form.trabalhe-conosco p input#sendbutton3
+, form.help-out-online p input#sendbutton2{ width: 128px; height: 48px; padding: 12px 0; display: block; border:none !important; background: url('images/botao_branco.jpg') no-repeat 0 0; border: 0; text-align: center; font-weight: bold; cursor:pointer; }
+
+p.labeled input { width: auto !important; }
+p.labeled label { display: inline !important; }
+form.contato fieldset
+, form.trabalhe-conosco fieldset
+, form.help-out-online fieldset{
+	background:none;
+	border:none;	
+}
+form.trabalhe-conosco ol li
+, form.help-out-online ol li{
+	list-style:none;	
+}
+
+
+/* BLOCO: TELEFONE E ENDEREÇO
+--------------------------------------------- */
+div#telefones {  }
+div.unidade { width: 430px; float: left; }
+div.endereco_unidade { background:url(images/home/bg_endereco_unidade.png) no-repeat; height:157px; padding: 10px; margin: 0; width: 400px; cursor: pointer; }
+div.endereco_unidade h1 { font-size: 24px; margin: 0; line-height: 1em; color: #FFF; }
+div.endereco_unidade p.telefone, div.endereco_unidade p.cep { font-size: 18px !important; color: #FFF !important; }
+div.endereco_unidade a { color: #fff !important; text-decoration: none !important; }
+
+
+
+/* BLOCO: CALENDARIO LETIVO
+--------------------------------------------- */
+div.calendario_letivo { width: 400px; padding: 15px; float: left; }
+div.calendario_letivo h3.subtitulo { margin: 0 !important; background-color: #bcbcbc; color: #323232; text-indent: 10px; }
+div.calendario_letivo table { width: 100%; }
+/*div.calendario_letivo ul { height: 200px; }*/
+div.calendario_letivo td { text-align: center; background: #eee; border: 1px solid #FFF; }
+div.calendario_letivo td.red { background-color: #b82932; color: #FFF !important; }
+div.calendario_letivo td.red strong { color: #FFF !important; }
+div#calendario_asasul { width: 399px; border-right: 1px solid #ddd; }
+
+
+/* AUXILIAR
+--------------------------------------------- */
+div#auxiliar { width: 336px; position: absolute; right: 0; top: -32px; }
+span#predios { width: 336px; height: 174px; display: block;  background:url(images/home/lateral_halloween.png) no-repeat center;  }
+
+div.banner { width: 218px; border: 1px solid #EEE; padding: 10px; margin: 0 0 1em; }
+
+#banner_institucional { background-color: #FFFFFF;
+    border: 6px solid #959899;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    padding: 2px 0 0 2px;
+    width: 336px; }
+#banner_institucional .wp-bannerize-support{
+	display:none !important;
+}
+#banner_institucional ul{
+	margin:0;
+	width:10000px;
+}
+#banner_institucional ul li.active{
+	display:block;
+}
+#banner_institucional ul li{
+	display:none;
+    float:left;
+    list-style:none;
+    margin-right:30px;
+}
+
+div#submenu {
+	background-color: #FFFFFF;
+    border: 6px solid #959899;
+    border-radius: 5px 5px 5px 5px;
+    height: 250px;
+    margin-bottom: 16px;
+    width: 337px; }
+div#submenu ul { width: 280px; padding-top: 12px; }
+div#submenu ul li { font-size: 12px !important; margin: 0 !important; list-style-type: none; }
+div#submenu ul li a {
+	color: #000000;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none; }
+div#submenu ul li a:hover { background-color: #323232; color: #fff; text-decoration: none !important; }
+
+
+div.lista_categorias { width: 240px; margin-top: 1em; }
+div.lista_categorias h2 { font-size: 18px !important; color: #222; padding-left: 1em; line-height: 1em !important; margin: 0 0 .5em !important; }
+div.lista_categorias ul { }
+div.lista_categorias ul li { list-style-type: none; margin: 0 !important; border-bottom: 1px dotted #FFF; }
+div.lista_categorias ul li a { text-decoration: none; display: block; padding: 5px; color: #333; font-weight: bold; font-size: 14px; }
+div.lista_categorias ul li a:hover { background-color: #FFF; color: #444; text-decoration: none !important; }
+
+
+
+/* CONTROLE_USUARIOS no BLOG
+--------------------------------------------- */
+div#identificar_usuario
+, div#cadastrar_usuario { width: 202px; padding: 25px; text-align: center; float: left; }
+p#bem_vindo { margin-top: 50px; }
