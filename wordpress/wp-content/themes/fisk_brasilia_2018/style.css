@@ -1665,17 +1665,12 @@ img.size-medium,
 }
 
 .alignleft,
-
 img.alignleft {
-
 	display: inline;
-
 	float: left;
-
 	margin-right: 24px;
-
 	margin-top: 4px;
-
+	max-width: 100%;
 }
 
 .alignright,
@@ -2633,6 +2628,37 @@ code {
 
 	-webkit-text-size-adjust: none;
 
+}
+
+.home-blocos {
+	padding-bottom: 40px;
+}
+
+.section-certifications {
+	background-size: cover !important;
+	background-position: bottom center !important;
+	min-height: 600px;
+}
+
+.section-certifications .container{
+		position: relative;
+		top: 140px;
+ }
+
+.home .cyber {
+	background: url('images/casal-fogueira.jpg') no-repeat bottom left;
+	background-size: cover;
+	margin-bottom: 40px;
+}
+
+.home .home-teste-ingles .image-bg {
+	background: url('images/tio-san.jpg') no-repeat bottom left;
+	background-size: cover;
+}
+
+.home .home-teste-ingles .image-bg .content
+, .home .home-teste-ingles .image-bg .title h2 {
+	color: #222222;
 }
 
 

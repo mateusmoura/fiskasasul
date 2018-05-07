@@ -20,13 +20,13 @@
     <?php
       $idP = get_the_ID();
       $curso = "";
-      if( $idP <= 336 && $idP >= 328 || $idP == 320 )
+      if( ($idP <= 336 && $idP >= 328 || $idP == 320) || $idP == 2066  || $idP == 2069 )
         $curso = "informatica";
-      else if( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 )
+      else if( ( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 ) || $idP == 2044  || $idP == 2048 || $idP == 2052 )
         $curso = "espanhol";
-      else if( $idP < 315 && $idP > 279 )
+      else if( ( $idP < 315 && $idP > 279 ) || $idP == 2026 || $idP == 2034 || $idP == 2039 )
         $curso = "ingles"; 
-      else if( $idP == 318 )
+      else if( $idP == 318 || $idP == 2054  || $idP == 2057 )
         $curso = "portugues";
       else if ($idP == 1070)
         $cursos = "frances";
@@ -34,22 +34,7 @@
 
     <!-- BREDCRUMB -->
     <div class="bredcrumb bg-image text-center"
-      style="background-image: url('<?php bloginfo( 'template_url' ); ?>
-        <?php 
-          if ($curso == 'ingles') {
-            echo '/img/headers/full-banner-ingles.jpg';
-          } else if ($curso == 'espanhol') {
-            echo '/img/headers/full-banner-espanhol.jpg';
-          } else if ($curso == 'portugues') {
-            echo '/img/headers/full-banner-portugues.jpg';
-          } else if ($curso == 'informatica') {
-            echo '/img/headers/full-banner-informatica.jpg';
-          } else if ($curso == 'frances') {
-            echo '/img/headers/banner-cursos.jpg';
-          } else {
-            echo '/img/headers/banner-cursos.jpg';
-          }
-        ?>');"
+      style="background-image: url('<?php bloginfo( 'template_url' ); ?><?php if ($curso == 'ingles') { echo '/img/headers/full-banner-ingles.jpg'; } else if ($curso == 'espanhol') { echo '/img/headers/full-banner-espanhol.jpg'; } else if ($curso == 'portugues') { echo '/img/headers/full-banner-portugues.jpg'; } else if ($curso == 'informatica') { echo '/img/headers/full-banner-informatica.jpg'; } else if ($curso == 'frances') { echo '/img/headers/banner-cursos.jpg'; } else { echo '/img/headers/banner-cursos.jpg'; } ?>');"
     >
       <div class="row bredcrumb-inner">
         <div class="col-sm-12  align-self-center">
@@ -69,18 +54,19 @@
         <div class="row">
           <div class="col-lg-8">
             <!-- section title -->
-            <div class="row justify-content-md-center curso-<?php echo $curso; ?>">
-              <div class="col-xl-12 col-lg-12 col-md-12">
-                <div class="section-title title-ex1 text-center">
-                  <h2 class="title-text"><?php the_title(); ?></h2>
-                  <!-- <p class="description">Inventore cillum soluta inceptos eos platea, soluta class laoreet repellendus imperdiet optio.</p> -->
-                </div>
-              </div>
-            </div>
             <!-- section title ends -->
 
             <?php if( $idP == 17 )
             { ?>
+              <div class="row justify-content-md-center curso-<?php echo $curso; ?>">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                  <div class="section-title title-ex1 text-center">
+                    <h2 class="title-text"><?php the_title(); ?></h2>
+                    <!-- <p class="description">Inventore cillum soluta inceptos eos platea, soluta class laoreet repellendus imperdiet optio.</p> -->
+                  </div>
+                </div>
+              </div>
+
               <div class="row">
                 <div class="col-md-12 col-lg-6">
                   <!-- single info block -->
@@ -91,7 +77,7 @@
                     <div class="description">
                       <h5 class="info-title">Inglês</h5>
                       <div class="image_container">
-                        <img title="ingles" src="http://www.fiskasasul.com.br/wp-content/uploads/2011/03/ingles.gif" alt="" />
+                        <img title="ingles" src="http://localhost/fiskproducao/wp-content/uploads/2011/03/ingles.gif" alt="" />
                       </div>
                       <p class="description">Na FISK, crianças a partir de 4 anos já começam a se comunicar em inglês. Veja quais as opções que a FISK oferece para crianças, jovens e adultos.</p>
 
@@ -113,7 +99,7 @@
                     <div class="description">
                       <h5 class="info-title">Espanhol</h5>
                       <div class="image_container">
-                        <img src="http://www.fiskasasul.com.br/wp-content/uploads/2011/03/espanhol.gif" alt="" title="espanhol" />
+                        <img src="http://localhost/fiskproducao/wp-content/uploads/2011/03/espanhol.gif" alt="" title="espanhol" />
                       </div>
                       <p class="description">Na FISK, Espanhol agora começa mais cedo. Confira abaixo as opções que a FISK oferece para adolescentes, jovens e adultos:</p>
 
@@ -134,7 +120,7 @@
                     <div class="description">
                       <h5 class="info-title">Francês</h5>
                       <div class="image_container">
-                        <img src="http://www.fiskasasul.com.br/wp-content/themes/fisk_brasilia_2013/images/badges/frances.png" alt="" title="Francês" />
+                        <img src="http://localhost/fiskproducao/wp-content/themes/fisk_brasilia_2013/images/badges/frances.png" alt="" title="Francês" />
                       </div>
                       <p class="description">Parlez Français! Agora na FISK você pode também aprender Francês! Conheça o curso de Francês para jovens e adultos.</p>
 
@@ -155,7 +141,7 @@
                     <div class="description">
                       <h5 class="info-title">Português para Brasileiros</h5>
                       <div class="image_container">
-                        <img src="http://www.fiskasasul.com.br/wp-content/uploads/2011/03/portugues.gif" alt="" title="portugues" />
+                        <img src="http://localhost/fiskproducao/wp-content/uploads/2011/03/portugues.gif" alt="" title="portugues" />
                       </div>
                       <p class="description">Não tropece mais! Aprimore suas habilidades de escrita e fala com a FISK.</p>
 
@@ -177,7 +163,7 @@
                     <div class="description">
                       <h5 class="info-title">Informática</h5>
                       <div class="image_container">
-                      <img src="http://www.fiskasasul.com.br/wp-content/uploads/2011/03/informatica.gif" alt="" title="informatica" />
+                      <img src="http://localhost/fiskproducao/wp-content/uploads/2011/03/informatica.gif" alt="" title="informatica" />
                       </div>
                       <p class="description">Mantenha-se atualizado e profissionalize-se com nossos diversos cursos de Informática!</p>
 
@@ -201,6 +187,15 @@
                 <section class="blog-post-contents">
                   <div class="media blog-media flex-wrap">
                     <div class="media-body page-courses">
+                      <div class="row justify-content-md-center curso-<?php echo $curso; ?>">
+                        <div class="col-xl-12 col-lg-12 col-md-12">
+                          <div class="section-title title-ex1 text-center">
+                            <h2 class="title-text"><?php the_title(); ?></h2>
+                            <!-- <p class="description">Inventore cillum soluta inceptos eos platea, soluta class laoreet repellendus imperdiet optio.</p> -->
+                          </div>
+                        </div>
+                      </div>
+
                       <?php the_content(); ?>
 
                       <div class="divider divider-center divider-gradient divider-gradient-gray w50 mx-auto my-5">
@@ -209,24 +204,28 @@
 
                       <h3 id="lista_niveis_titulo">Cursos:</h3>
 
-                      <?php if( $idP < 315 && $idP > 279 ) { ?>
+                      <?php if( ($idP < 315 && $idP > 279) || $idP == 2026 || $idP == 2034 || $idP == 2039 ) { ?>
                       <div class="list-group">
                         <?php wp_nav_menu( array('menu' => 'cursos_ingles', 'menu_class' => 'menuCourses' )); ?>
                       </div>
 
                       <?php }
-                        else if( $idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318 ) { ?>
+                        else if( ($idP <= 324 && $idP >= 316 && $idP != 320 && $idP != 318) || $idP == 2044  || $idP == 2048 || $idP == 2052 ) { ?>
                         <div class="list-group">
                           <?php wp_nav_menu( array('menu' => 'cursos_espanhol', 'menu_class' => 'menuCourses' )); ?>
                         </div>
                       <?php }
-                        else if( $idP <= 336 && $idP >= 328 || $idP == 320 ) { ?>
+                        else if( ($idP <= 336 && $idP >= 328 || $idP == 320) || $idP == 2066  || $idP == 2069 ) { ?>
                         <div class="list-group">
                           <?php wp_nav_menu( array('menu' => 'cursos_informatica', 'menu_class' => 'menuCourses' )); ?>
                         </div>
                       <?php } else if( $idP == 1070 ){ ?>
                         <div class="list-group">
                           <?php wp_nav_menu( array('menu' => 'cursos_frances', 'menu_class' => 'menuCourses' )); ?>
+                        </div>
+                      <?php } else if ( $idP == 318 || $idP == 2054  || $idP == 2057 ) { ?>
+                        <div class="list-group">
+                          <?php wp_nav_menu( array('menu' => 'cursos_portugues', 'menu_class' => 'menuCourses' )); ?>
                         </div>
                       <?php } ?>
                     </div>
@@ -258,7 +257,7 @@
         </div>
       </div>
 
-      <section class="bg-sand hero-block home-about" style="background: url('<?php bloginfo( 'template_url' ); ?>/img/cursos/banner-footer-certifications.jpg') no-repeat bottom right;">
+      <section class="bg-sand hero-block home-about section-certifications" style="background: url('<?php bloginfo( 'template_url' ); ?>/img/cursos/banner-footer-certifications.jpg') no-repeat bottom right;">
         <div class="container">
           <div class="row">
             <div class="col-md-6 ">

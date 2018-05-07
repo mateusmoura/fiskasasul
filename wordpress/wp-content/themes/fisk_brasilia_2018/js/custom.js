@@ -496,12 +496,18 @@
   });
 
   //============================== VIDEOBOX =========================
-  var videoBox = $('.video-box i');
-  videoBox.on('click', function(){
+  var videoBox = $('.video-box');
+  videoBox.on('click', 'a', function(){
+    var data = $('svg, i', $(this))
     $('.hide').css('display', 'none');
-    var video = '<iframe class="embed-responsive-item"  allowfullscreen src="'+ $(this).attr('data-video') +'"></iframe>';
-    $(this).replaceWith(video);
+    var video = '<iframe class="embed-responsive-item"  allowfullscreen src="'+ data.attr('data-video') +'"></iframe>';
+    data.replaceWith(video);
   });
+  
+
+  var bredcrumb = $('.random-bg');
+  var numberImage = Math.floor(Math.random() * (14 - 1)) + 1;
+  bredcrumb.css('background-image', `url('${template_url}/img/headers/banner-pages-${numberImage}.jpg')`);
 
 
   //============================== CHARTJS =========================

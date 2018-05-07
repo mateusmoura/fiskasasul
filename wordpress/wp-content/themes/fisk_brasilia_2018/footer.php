@@ -91,10 +91,12 @@
             </div>
 
             <div class="address">
-              <p><strong>Fisk Asa Sul</strong> - (61) 3345-0083 / 3345-0087 - CLS 115 Bloco B Loja 02, Brasília - DF, 70385-520</p>
-              <p><strong>Fisk Asa Norte</strong> - (61) 3041-8474 / 3041-8797 - SHCGN 714/715 Bloco E Lojas 22/24 - de frente para a Av. W-4 e também à Igreja São Francisco de Assis e ao Colégio Leonardo Da Vinci</p>
-              <p><strong>Fisk Taguatinga Norte</strong> - (61) 3355-1191 / 3355-1192 - Av. Samdu Norte QNE 24 Casa 05, Taguatinga Norte, Brasília - DF, 72125-240</p>
+              <p><strong>Fisk Asa Sul</strong> - (61) 3345-0083 / 3345-0087 - CLS 115 Bloco B Loja 02, Brasília - DF, 70.385-520</p>
               <a href="mailto:secretaria@fiskasasul.com.br">secretaria@fiskasasul.com.br</a>
+              <p><strong>Fisk Asa Norte</strong> - (61) 3041-8474 / 3041-8797 - SHCGN 714/715 Bloco E Lojas 22/24, Brasília - DF, 70.761-650 </p>
+              <a href="mailto:secretaria@fiskasanorte.com.br">secretaria@fiskasanorte.com.br</a>
+              <p><strong>Fisk Taguatinga Norte</strong> - (61) 3355-1191 / 3355-1192 - Av. Samdu Norte QNE 24 Casa 05, Taguatinga Norte, Brasília - DF, 72.125-240</p>
+              <a href="mailto:secretaria@fisktaguatinganorte.com.br">secretaria@fisktaguatinganorte.com.br</a>
             </div>
           </div>
         </div>

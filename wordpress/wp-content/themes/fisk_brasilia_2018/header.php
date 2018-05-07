@@ -46,6 +46,9 @@
 <meta name="company" content="Fundação Richard Hugh Fisk" />
 <meta name="revisit-after" content="1" />
 
+<script>
+  var template_url = "<?php bloginfo( 'template_url' ); ?>";
+</script>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />

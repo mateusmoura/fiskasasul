@@ -70,13 +70,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/fachada.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/fachada.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -89,13 +89,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/sala-de-aula.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/sala-de-aula.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -108,13 +108,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/secretaria.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/secretaria.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -138,13 +138,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/secretaria.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/secretaria.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -157,13 +157,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/sala-de-aula.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/sala-de-aula.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -176,13 +176,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/hall.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/hall.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -206,13 +206,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/hall.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/hall.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -225,13 +225,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/secretaria.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/secretaria.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -244,13 +244,13 @@
                 <div class="card mb-4">
                   <div class="card_img">
                     <a href="<?php echo get_page_link( "19" ); ?>">
-                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09_mini.jpg" />
+                      <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/sala-de-aula.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
                           <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
-                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asasul/09.jpg" data-fancybox="images" class="icon icon-circle">
+                          <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/sala-de-aula.jpg" data-fancybox="images" class="icon icon-circle">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </a>
                         </div>
@@ -262,33 +262,12 @@
             </div>
           </div>
 
-          <section class="row home-teste-ingles">
-            <div class="col-12">
-              <div class="info text-center">
-                <div class="icon icon-circle">
-                  <i class="fas fa-clipboard-list"></i>
-                </div>
-
-                <div class="info-content">
-                  <h5 class="info-title">Teste de classificação</h5>
-                  <div class="description">
-                    <p class="description">Que tal saber como está o seu conhecimento de inglês ou espanhol?</p>
-
-                    <a href="http://www.fisk.com.br/teste-classificacao" target="_blank" title="">
-                      <button class="btn btn-primary">Conheça</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
           <section class="row home-about home-video">
             <div class="col-6 col-md-12">
-              <div class="promo-video bg-image" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/youtube/video1.png');">
+              <div class="promo-video bg-image" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/youtube/miniatura-01.png');">
                 <div class="video-button video-box">
                   <a href="javascript:void(0)">
-                    <i class="fa fa-play play-icon" aria-hidden="true" data-video="http://www.youtube.com/embed/4BRkFyyo09M?autoplay=1"></i>
+                    <i class="fa fa-play play-icon" aria-hidden="true" data-video="https://www.youtube.com/embed/_ozary7pI1k?autoplay=1"></i>
                     <span class="hide"></span>
                   </a>
                 </div>
@@ -296,10 +275,10 @@
             </div>
 
             <div class="col-6 col-md-12">
-              <div class="promo-video bg-image" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/youtube/video2.png');">
+              <div class="promo-video bg-image" style="background-image: url('<?php bloginfo( 'template_url' ); ?>/img/youtube/miniatura-02.png');">
                 <div class="video-button video-box">
                   <a href="javascript:void(0)">
-                    <i class="fa fa-play play-icon" aria-hidden="true" data-video="http://www.youtube.com/embed/WWZChcyEcGM?autoplay=1"></i>
+                    <i class="fa fa-play play-icon" aria-hidden="true" data-video="https://www.youtube.com/embed/vZIaEWIcUVw?autoplay=1"></i>
                     <span class="hide"></span>
                   </a>
                 </div>
@@ -315,9 +294,9 @@
 
         <div class="col-md-6">
           <div class="box-content cyber">
-            <div class="bg">
+            <!-- <div class="bg">
               <img src="http://www.fisk.com.br/assets/images/samples/casal-fogueira.jpg" alt="">
-            </div>
+            </div> -->
             <div class="padding">
               <div class="title">
                 <h2>Cyber Fisk</h2>
@@ -339,6 +318,31 @@
               </div>
             </div>
           </div>
+
+          <section class="row home-teste-ingles">
+            <div class="col-12">
+              <div class="box-content image-bg">
+                <div class="padding">
+                  <div class="title">
+                    <h2>Teste de classificação</h2>
+                    
+                  </div>
+                  <div class="content white">
+                    Que tal saber como <span class="break-line"></span>
+                    está o seu conhecimento <span class="break-line"></span>
+                    de inglês ou espanhol? <span class="break-line"></span>
+                      <span class="break-line"></span>
+                    <span class="break-line"></span>
+                  </div>
+                  <div class="link">
+                    <a href="http://www.fisk.com.br/teste-classificacao" target="_blank" title="">
+                      <button class="btn btn-dark">Conheça</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
           <section class="home-blog">
             <div class="row">
@@ -365,10 +369,10 @@
                   ?>
 
 
-                      <div class="col-6 col-md-6">
+                      <div class="col-12 col-md-6">
                         <div class="media blog-media">
                           <a href="<?php the_permalink(); ?>">
-                            <?php the_post_thumbnail(); ?>
+                            <?php the_post_thumbnail('medium'); ?>
                           </a>
 
                           <div class="circle">

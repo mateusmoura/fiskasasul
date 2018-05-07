@@ -104,7 +104,8 @@
             <div class="text-center">
               <p><a href="mailto:contato@fiskasanorte.com.br">contato@fiskasanorte.com.br</a></p>
               <p class="telefone">(61) 3041-8474 / 3041-8797</p>
-              <p class="cep">SHCGN 714/715 Bloco E Lojas 22/24 - de frente para a Av. W-4 e também à Igreja São Francisco de Assis e ao Colégio Leonardo Da Vinci</p>
+              <p class="cep">SHCGN 714/715 Bloco E Lojas 22/24, Brasília - DF, 70.761-650</p>
+              
 
               <br /><br />
             </div>
