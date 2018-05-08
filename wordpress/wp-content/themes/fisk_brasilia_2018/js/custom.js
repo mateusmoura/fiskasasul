@@ -148,13 +148,18 @@
       
       /* options are 'auto', 'fullwidth' or 'fullscreen' */
       delay: '6000',
-      sliderLayout: 'auto',
-      responsiveLevels: [800, 700, 600, 480],
-      gridwidth:[800, 700, 600, 480],
-			gridheight:[600, 500, 500, 500],
+      // sliderLayout: 'auto',
+      // responsiveLevels: [800, 700, 600, 480],
+      // gridwidth:[800, 700, 600, 480],
+			// gridheight:[600, 500, 500, 500],
       stopLoop: 'off',
       stopAfterLoops: -1,
       stopAtSlide: -1,
+      startwidth:1170,
+      startheight:500,
+      hideThumbs:10,
+      fullWidth:"on",
+      forceFullWidth:"on",
       
 
       /* basic navigation arrows and bullets */

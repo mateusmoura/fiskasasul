@@ -5715,7 +5715,7 @@ header .main-nav .dropdown-menu .nav-item a.nav-link:hover, header .main-nav .dr
   padding-bottom: 10px;
   position: relative;
   z-index: 2;
-  max-width: 150px;
+  max-width: 110px;
 }
 
 .main-nav .navbar-brand img {
@@ -8861,6 +8861,16 @@ body.loaded {
 
 .home-teste-ingles .image-bg .content, .home-teste-ingles .image-bg .title h2 {
   color: #222222;
+}
+
+.home-teste-ingles .image-bg .title h2 {
+  font-size: 30px;
+}
+
+@media (min-width: 992px) {
+  .home-teste-ingles .image-bg .title h2 {
+    font-size: 44px;
+  }
 }
 
 footer {

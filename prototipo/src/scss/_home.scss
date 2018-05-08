@@ -968,4 +968,12 @@ body {
   , .image-bg .title h2 {
     color: #222222;
   }
+
+  .image-bg .title h2 {
+    font-size: 30px;
+
+    @include desktops {
+      font-size: 44px;
+    }
+  }
 }

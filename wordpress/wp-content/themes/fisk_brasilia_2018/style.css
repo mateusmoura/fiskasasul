@@ -2648,12 +2648,14 @@ code {
 .home .cyber {
 	background: url('images/casal-fogueira.jpg') no-repeat bottom left;
 	background-size: cover;
+	background-position: right bottom;
 	margin-bottom: 40px;
 }
 
 .home .home-teste-ingles .image-bg {
 	background: url('images/tio-san.jpg') no-repeat bottom left;
 	background-size: cover;
+	background-position: right bottom;
 }
 
 .home .home-teste-ingles .image-bg .content
