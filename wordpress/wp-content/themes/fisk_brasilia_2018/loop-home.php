@@ -367,10 +367,8 @@
                       $month = get_the_date('M', $postID);
                       $postType = get_post_type($postID);
                   ?>
-
-
                       <div class="col-12 col-md-6">
-                        <div class="media blog-media">
+                        <div class="media blog-media <?php if(!has_post_thumbnail($post)) echo 'not-thumbnail' ?>">
                           <a href="<?php the_permalink(); ?>">
                             <?php the_post_thumbnail('medium'); ?>
                           </a>

@@ -826,6 +826,12 @@ body {
       }
     }
 
+    &.not-thumbnail {
+      .media-body {
+        padding-top: 100px;
+      }
+    }
+
     .media-body {
       border: 1px solid #efeff3;
       width: 100%;

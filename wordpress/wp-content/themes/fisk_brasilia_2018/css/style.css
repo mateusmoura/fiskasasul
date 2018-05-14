@@ -8711,6 +8711,10 @@ body.loaded {
   }
 }
 
+.home-blog .media.not-thumbnail .media-body {
+  padding-top: 100px;
+}
+
 .home-blog .media .media-body {
   border: 1px solid #efeff3;
   width: 100%;
