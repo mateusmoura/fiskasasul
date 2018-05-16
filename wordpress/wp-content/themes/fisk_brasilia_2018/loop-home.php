@@ -137,11 +137,11 @@
               <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
-                    <a href="<?php echo get_page_link( "19" ); ?>">
+                    <a href="<?php echo get_page_link( "21" ); ?>">
                       <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/secretaria.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
-                          <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
+                          <a href="<?php echo get_page_link( "21" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
                           <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/secretaria.jpg" data-fancybox="images" class="icon icon-circle">
@@ -156,11 +156,11 @@
               <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
-                    <a href="<?php echo get_page_link( "19" ); ?>">
+                    <a href="<?php echo get_page_link( "21" ); ?>">
                       <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/sala-de-aula.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
-                          <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
+                          <a href="<?php echo get_page_link( "21" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
                           <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/sala-de-aula.jpg" data-fancybox="images" class="icon icon-circle">
@@ -175,11 +175,11 @@
               <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
-                    <a href="<?php echo get_page_link( "19" ); ?>">
+                    <a href="<?php echo get_page_link( "21" ); ?>">
                       <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/hall.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
-                          <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
+                          <a href="<?php echo get_page_link( "21" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
                           <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/tagua/hall.jpg" data-fancybox="images" class="icon icon-circle">
@@ -205,11 +205,11 @@
               <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
-                    <a href="<?php echo get_page_link( "19" ); ?>">
+                    <a href="<?php echo get_page_link( "1013" ); ?>">
                       <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/hall.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
-                          <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
+                          <a href="<?php echo get_page_link( "1013" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
                           <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/hall.jpg" data-fancybox="images" class="icon icon-circle">
@@ -224,11 +224,11 @@
               <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
-                    <a href="<?php echo get_page_link( "19" ); ?>">
+                    <a href="<?php echo get_page_link( "1013" ); ?>">
                       <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/secretaria.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
-                          <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
+                          <a href="<?php echo get_page_link( "1013" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
                           <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/secretaria.jpg" data-fancybox="images" class="icon icon-circle">
@@ -243,11 +243,11 @@
               <div class="col-6 col-md-2 col-lg-4">
                 <div class="card mb-4">
                   <div class="card_img">
-                    <a href="<?php echo get_page_link( "19" ); ?>">
+                    <a href="<?php echo get_page_link( "1013" ); ?>">
                       <img class="img-full" alt="Asa Sul" src="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/sala-de-aula.jpg" />
                       <div class="hover-overlay effect-scale">
                         <div class="overlay-content">
-                          <a href="<?php echo get_page_link( "19" ); ?>" class="icon icon-circle">
+                          <a href="<?php echo get_page_link( "1013" ); ?>" class="icon icon-circle">
                             <i class="fa fa-link" aria-hidden="true"></i>
                           </a>
                           <a href="<?php bloginfo( 'template_url' ); ?>/images/unidades/asanorte/sala-de-aula.jpg" data-fancybox="images" class="icon icon-circle">
